@@ -1,0 +1,136 @@
+p {
+   font-size: 84px;
+   font-weight: 200;
+}
+
+section{
+   padding-top: 200px;
+   text-align: center;
+   height: 1080px;
+}
+
+#firstPage{
+   background-color: red;
+}
+
+#secondPage{
+   background-color: blue;
+}
+
+#thirdPage{
+   background-color: green;
+}
+
+#fourthPage{
+   background-color: yellow;
+}
+
+#fifthPage{
+   background-color: purple;
+}
+
+#sixthPage{
+   background-color: gray;
+}
+
+#seventhPage{
+   background-color: pink;
+}
+
+#eighthPage{
+   background-color:orange;
+}
+
+#ninthPage{
+   background-color: #900C3F;
+}
+
+#tenthPage{
+   background-color: #dd35f4;
+}
+
+.pagination {
+	position:fixed;
+	right:20px;
+	top: 50%;
+	font-size:1.4em;
+	z-index: 10;
+  display: inline;
+  transform: translate(-50%, -50%);
+}
+.pagination a {
+	display:block;
+	height:20px;
+	margin-bottom:25px;
+	color:white;
+	position:relative;
+	padding:4px;
+}
+
+.pagination a .hover-text {
+	position:absolute;
+	right:15px;
+	top:7px;
+	opacity:0;
+	-webkit-transition: opacity 0.5s ease;
+	transition: opacity 0.5s ease;
+	padding-right: 15px;
+  background-color: white;
+  color:black;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding: inherit;
+  text-align: center;
+  width:180px;
+}
+.pagination a:hover .hover-text {
+	opacity: 1;
+  background-color: white;
+  color:black;
+  text-transform: uppercase;
+  font-size: 15px;
+  text-align: center;
+  padding: inherit;
+  vertical-align: top;
+  width:180px;
+}
+.pagination a:after {
+	width:15px;
+	height:15px;
+	display: block;
+	border:3px solid;
+	border-radius:50%;
+	content:'';
+	position: absolute;
+	margin:auto;
+	top:0;
+	right:4px;
+	bottom:0;
+  background-color: white;
+}
+.pagination a.active:after {
+	width:16px;
+	height:16px;
+	display: block;
+	border:2px solid;
+	border-radius:50%;
+	content:'';
+	position: absolute;
+	margin:auto;
+	top:0;
+	right:4px;
+	bottom:0;
+  background-color: black;
+}
+  .pagination .first:before {
+
+      position: absolute;
+      top: 10px;
+      bottom: 0;
+      height: 360px;
+      right: 10.4px;
+      border-left: 1px dashed white;
+      content: "";
+      transform: translateX(-50%);
+
+  }
