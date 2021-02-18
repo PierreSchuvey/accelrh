@@ -3,7 +3,7 @@ $(function() {
 		section:".scrollable-section",
     interstitialSection : "",
     easing: "easeOutExpo",
-    scrollSpeed: 1100,
+    scrollSpeed: 10,
     offset : 0,
     scrollbars: true,
     standardScrollElements: "",
