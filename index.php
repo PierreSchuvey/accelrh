@@ -7,44 +7,45 @@
     <title>AcceleRH</title>
   </head>
   <body>
+    <img id="logoAccelerh" src="assets/images/logoAccelerh.svg" alt="accelerh">
     <ul class="pagination">
       <li>
-        <a id="panel1" class="first active" href="#1">
+        <a id="panel1" class="dashed first active" href="#1">
           <div><span class="hover-text">Accueil</span></div>
         </a>
       </li>
       <li>
-        <a id="panel2" class="" href="#2">
+        <a id="panel2" class="dashed" href="#2">
         <div><span class="hover-text">Présentation</span></div>
       </a>
     </li>
     <li>
-      <a id="panel3" class="" href="#3">
+      <a id="panel3" class="dashed" href="#3">
         <div><span class="hover-text">Diffusion</span></div>
       </a>
     </li>
     <li>
-      <a id="panel4" class="" href="#4">
+      <a id="panel4" class="dashed" href="#4">
         <div><span class="hover-text">Site sur-mesure</span></div>
       </a>
     </li>
     <li>
-      <a id="panel5" class="" href="#5">
+      <a id="panel5" class="dashed" href="#5">
         <div><span class="hover-text">Plateforme</span></div>
       </a>
     </li>
     <li>
-      <a id="panel6" class="" href="#6">
+      <a id="panel6" class="dashed" href="#6">
         <div><span class="hover-text">Cvthèque</span></div>
       </a>
     </li>
     <li>
-      <a id="panel7" class="" href="#7">
+      <a id="panel7" class="dashed" href="#7">
         <div><span class="hover-text">Gestion des droits</span></div>
       </a>
     </li>
     <li>
-      <a id="panel8" class="" href="#8">
+      <a id="panel8" class="dashed" href="#8">
         <div><span class="hover-text">Analyse</span></div>
       </a>
     </li>
@@ -55,10 +56,69 @@
     </li>
   </ul>
     <section id="firstPage" class="scrollable-section" data-panel="panel1">
-        <h1>1</h1>
+        <div style="" class="container">
+          <div id="firstPanelGroup" class="row">
+            <div style="height:500px" class="offset-xl-2 offset-lg-1 col-12 col-lg-10 col-xl-8">
+              <div class="row">
+                <div class="col-12">
+                  <img id="mainAccelerh" src="assets/images/accelerhMain.svg" alt="accelerh">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <p class="paragraphPanel1 bold">Organisez et simplifiez</p>
+                  <p class="paragraphPanel1">votre activité de recrutement</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                  <p class="subParagraphPanel1">Gagnez du temps</p>
+                  <img style="width:100px;margin-top:20px" class="filter-color" src="assets/images/timePicto.svg" alt="horloge picto">
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                  <p class="subParagraphPanel1">Centralisez vos actions</p>
+                  <img class="filter-color" src="assets/images/rhPicto.png" alt="ressources humaines picto">
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                  <p class="subParagraphPanel1">Economisez</p>
+                  <img class="filter-color" src="assets/images/pourcentPicto.svg" alt="pourcentage picto">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
     </section>
     <section id="secondPage" class="panel2 scrollable-section" data-panel="panel2">
-          <h1>2</h1>
+      <div style="" class="container">
+        <div id="secondPanelGroup" class="row">
+          <div style="height:500px" class="offset-xl-2 offset-lg-1 col-12 col-lg-10 col-xl-8">
+            <div class="row">
+              <div class="col-12">
+                <p class="paragraphPanel2 bold">Logiciel RH innovant</p>
+                <p class="paragraphPanel2">Simple d'utilisation qui vous permettra d'améliorer votre processus de recrutement</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-sm-3">
+                <p class="subParagraphPanel1">Gérez vos recrutements</p>
+                <img style="width:100px;margin-top:20px" class="filter-color" src="assets/images/pictoDownload.png" alt="horloge picto">
+              </div>
+              <div class="col-xs-12 col-sm-3">
+                <p class="subParagraphPanel1">Multidiffusez vos offres</p>
+                <img style="width:100px;margin-top:20px" class="filter-color" src="assets/images/pictoscreen.svg" alt="ressources humaines picto">
+              </div>
+              <div class="col-xs-12 col-sm-3">
+                <p class="subParagraphPanel1">Gérez vos candidatures</p>
+                <img style="width:100px;margin-top:20px" class="filter-color" src="assets/images/pictoUpload.png" alt="pourcentage picto">
+              </div>
+              <div class="col-xs-12 col-sm-3">
+                <p class="subParagraphPanel1">Gérez votre <br> cvthèque</p>
+                <img style="width:80px;margin-top:15px" class="filter-color" src="assets/images/pictoLoupe.svg" alt="pourcentage picto">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <section id="thirdPage" class="panel3 scrollable-section" data-panel="panel3">
           <h1>3</h1>

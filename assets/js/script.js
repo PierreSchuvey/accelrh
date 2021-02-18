@@ -1,8 +1,16 @@
 $(function() {
   $.scrollify({
 		section:".scrollable-section",
-    scrollbars:false,
-    scrollSpeed:10,
+    interstitialSection : "",
+    easing: "easeOutExpo",
+    scrollSpeed: 1100,
+    offset : 0,
+    scrollbars: true,
+    standardScrollElements: "",
+    setHeights: false,
+    overflowScroll: true,
+    updateHash: true,
+    touchScroll:true,
     before:function(){
       $(".pagination .active").removeClass("active");
     },
