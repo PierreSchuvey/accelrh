@@ -66,36 +66,28 @@ section{
   background-size: cover;flex: 1;
 }
 
-#thirdPage{
-   background-color: green;
-}
-
-#fourthPage{
-   background-color: yellow;
-}
-
-#fifthPage{
-   background-color: purple;
-}
-
-#sixthPage{
-   background-color: gray;
-}
-
 #seventhPage{
-   background-color: pink;
+   background: url(../images/backSection7.png) no-repeat center fixed;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover;flex: 1;
 }
 
 #eighthPage{
-   background-color:orange;
+   background: url(../images/backSection8.png) no-repeat center fixed;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover;flex: 1;
 }
 
 #ninthPage{
-   background-color: #900C3F;
+   background: url(../images/backSection9.png) no-repeat center fixed;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover;flex: 1;
 }
 
 #tenthPage{
-   background-color: #dd35f4;
+   background: url(../images/backSection10.png) no-repeat center fixed;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover;flex: 1;
 }
 
 #firstPanelGroup{
@@ -106,6 +98,22 @@ section{
   margin-top:120px;
 }
 
+#yellowText{
+  font-weight: bold;
+  color: rgba(227,206,68,1);
+}
+.multiDiffus{
+  font-size: 30px;
+  color:white;
+  text-align: left;
+  text-transform: uppercase;
+}
+.multiDiffusText{
+  margin-top: 20px;
+  font-size: 20px;
+  color:white;
+  text-align: left;
+}
 .pagination {
 	position:fixed;
 	right:20px;
@@ -212,6 +220,45 @@ section{
    filter: brightness(0) invert(1);
    width: 80px;
  }
+
+
+ .grid {
+   border: 1px solid #333;
+ }
+
+ /* clear fix */
+ .grid:after {
+   content: '';
+   display: block;
+   clear: both;
+ }
+
+ .element-item {
+   position: relative;
+   float: left;
+   width: 80px;
+   height: 80px;
+   margin: 2px;
+   padding: 10px;
+   background: white;
+   color: #262524;
+ }
+
+ #multiDiffusButton{
+   width: 100%;
+   border: none;
+   background-color: white;
+   font-weight: bold;
+   text-transform: uppercase;
+   font-size: 20px;
+   padding: 5px;
+ }
+
+ .element-item > * {
+   margin: 0;
+   padding: 0;
+ }
+
  @media screen and (max-width: 410px) {
    .paragraphPanel1{
      text-transform: uppercase;
@@ -227,7 +274,7 @@ section{
      height:120vh;
    }
  }
- @media screen and (max-height: 590px) {
+ @media screen and (max-height: 650px) {
    .pagination a {
    	display:block;
    	height:20px;

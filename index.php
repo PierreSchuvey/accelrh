@@ -50,7 +50,12 @@
       </a>
     </li>
     <li>
-      <a id="panel9" class="" href="#9">
+      <a id="panel9" class="dashed" href="#9">
+        <div><span class="hover-text">Nos clients</span></div>
+      </a>
+    </li>
+    <li>
+      <a id="panel10" class="" href="#10">
         <div><span class="hover-text">Nos clients</span></div>
       </a>
     </li>
@@ -121,7 +126,34 @@
       </div>
     </section>
     <section id="thirdPage" class="panel3 scrollable-section" data-panel="panel3">
-          <h1>3</h1>
+      <div style="" class="container">
+        <div id="secondPanelGroup" class="row">
+          <div style="height:500px" class="offset-xl-2 offset-lg-1 col-12 col-lg-10 col-xl-8">
+            <div class="row">
+              <div class="col-12 col-xl-7">
+                <p class="multiDiffus"><span id="yellowText">Multi-diffusez</span> <b>vos</b> <br>offres d'emploi / formation</p>
+                <p class="multiDiffusText">
+                  En quelques clics, créer vos annonces et publier les d'un seul coup sur les sites de votre choix.
+                  <br>Finie la corvée des comptes multiples, des identifiants perdus...
+                  <br>Vos offres bénéficient d'une visibilité optimale en quelques secondes.
+                </p>
+                <button id="multiDiffusButton" type="button" name="button">Voir la liste complète</button>
+              </div>
+              <div class="col-12 col-xl-5">
+                <div class="grid">
+                  <?php
+                    for ($i=0; $i < 16 ; $i++) {
+                    ?>
+                    <span class="element-item"></span>
+                    <?php
+                    }
+                    ?>
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <section id="fourthPage" class="panel4 scrollable-section" data-panel="panel4">
           <h1>4</h1>
@@ -140,6 +172,9 @@
     </section>
     <section id="ninthPage" class="panel9 scrollable-section" data-panel="panel9">
           <h1>9</h1>
+    </section>
+    <section id="tenthPage" class="panel10 scrollable-section" data-panel="panel9">
+          <h1>10</h1>
     </section>
   </body>
   <footer>
