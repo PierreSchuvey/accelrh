@@ -31,7 +31,4 @@ if(!window.matchMedia("(max-width: 896px)").matches) {
 
 
   });
-  console.log('not mobile')
-}else{
-  console.log('mobile')
 }
