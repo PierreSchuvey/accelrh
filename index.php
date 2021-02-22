@@ -128,7 +128,7 @@
     </section>
     <section id="thirdPage" class="panel3 scrollable-section" data-panel="panel3">
       <div style="" class="container">
-        <div id="secondPanelGroup" class="panelGroup row">
+        <div id="thirdPanelGroup" class="panelGroup row">
           <div style="height:500px" class="offset-xl-2 offset-lg-1 col-12 col-lg-10 col-xl-8">
             <div class="row">
               <div class="col-12 col-xxl-6">
@@ -157,7 +157,16 @@
       </div>
     </section>
     <section id="fourthPage" class="panel4 scrollable-section" data-panel="panel4">
-          <h1>4</h1>
+      <div style="" class="container">
+        <div id="fourthPanelGroup" class="panelGroup row">
+          <div class=" col-12 offset-sm-3 col-sm-6 offset-xl-4 col-xl-4">
+            <p class="createSite">Créez votre<br> <b>site emploi</b> <span id="yellowText">sur-mesure</span></p>
+            <hr style="color:rgba(227,206,68,1);width:75%">
+            <p class="createSiteText">Valorisez votre marque employeur avec un site de recrutement personnalisé, <b>moderne et modulable !</b></p>
+            <p class="createSiteText">Ce site est votre 1er contact avec le candidat, il faut qu'il soit à votre image, facile d'utilisation et performant pour attirer le plus de candidats.</p>
+          </div>
+        </div>
+      </div>
     </section>
     <section id="fifthPage" class="panel5 scrollable-section" data-panel="panel5">
           <h1>5</h1>

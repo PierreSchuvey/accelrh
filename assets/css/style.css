@@ -56,8 +56,8 @@ section{
 
 #thirdPage{
    background: url(../images/backSection3.png) no-repeat center fixed;
-  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-  background-size: cover;flex: 1;
+  -webkit-background-size: center; /* pour anciens Chrome et Safari */
+  background-size: center;flex: 1;
 }
 
 #fourthPage{
@@ -119,6 +119,20 @@ section{
   margin-top: 40px;
 }
 .multiDiffusText{
+  margin-top: 30px;
+  font-size: 18px;
+  color:white;
+  text-align:justify;
+}
+.createSite{
+  font-size: 20px;
+  color:white;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-top: 40px;
+}
+.createSiteText{
   margin-top: 30px;
   font-size: 18px;
   color:white;
@@ -233,19 +247,6 @@ section{
    width: 80px;
  }
 
-
- .grid {
-   border: 1px solid #333;
-   margin-left: 20px;
- }
-
- /* clear fix */
- .grid:after {
-   content: '';
-   display: block;
-   clear: both;
- }
-
  .element-item {
    position: relative;
    float: left;
@@ -270,10 +271,19 @@ section{
 
  }
 
+ #fourthPanelGroup{
+   margin-top: 160px;
+ }
+
+ .grid{
+   margin-left: 9%;
+ }
+
  .element-item > * {
    margin: 0;
    padding: 0;
  }
+
 
  @media only screen and (max-device-width: 1399px) {
 
@@ -316,6 +326,23 @@ section{
      height: 1180px;
    }
 
+   #fourthPanelGroup{
+     margin-top: 160px;
+   }
+
+   #fourthPage{
+      background: url(../images/backSection4Bis.png) no-repeat center fixed;
+     -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+     background-size: cover;flex: 1;
+   }
+
+ }
+
+ @media only screen and (max-device-width: 421px) {
+   #thirdPage{
+     height: 1180px;
+   }
+
  }
 
  @media only screen and (max-device-width: 410px) {
@@ -328,6 +355,14 @@ section{
      right: 0;
    }
  }
+
+ @media only screen and (max-device-width: 327px) {
+   #thirdPage{
+     height: 1380px;
+   }
+
+ }
+
  @media only screen and (max-device-height: 650px) {
    .pagination a {
    	display:block;
