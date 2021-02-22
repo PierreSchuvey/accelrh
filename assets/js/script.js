@@ -1,4 +1,4 @@
-if(!window.matchMedia("(max-width: 767px)").matches) {
+if(!window.matchMedia("(max-width: 896px)").matches) {
   $(function() {
     $.scrollify({
   		section:".scrollable-section",
