@@ -111,7 +111,7 @@
               </div>
               <div class="col-xs-12 col-sm-3">
                 <p class="subParagraphPanel1">Multidiffusez vos offres</p>
-                <img style="width:100px;margin-top:20px" class="filter-color" src="assets/images/pictoscreen.svg" alt="ressources humaines picto">
+                <img style="width:100px;margin-top:20px" class="filter-color" src="assets/images/pictoScreen.svg" alt="ressources humaines picto">
               </div>
               <div class="col-xs-12 col-sm-3">
                 <p class="subParagraphPanel1">Gérez vos candidatures</p>
