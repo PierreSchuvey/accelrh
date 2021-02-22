@@ -131,16 +131,15 @@
         <div id="secondPanelGroup" class="panelGroup row">
           <div style="height:500px" class="offset-xl-2 offset-lg-1 col-12 col-lg-10 col-xl-8">
             <div class="row">
-              <div class="col-12 col-xl-7">
+              <div class="col-12 col-xxl-6">
                 <p class="multiDiffus"><span id="yellowText">Multi-diffusez</span> <b>vos</b> <br>offres d'emploi / formation</p>
                 <p class="multiDiffusText">
-                  En quelques clics, créer vos annonces et publier les d'un seul coup sur les sites de votre choix.
+                  En <b>quelques clics</b>, créer vos annonces et publier les d'un seul coup sur les sites de votre choix.
                   <br>Finie la corvée des comptes multiples, des identifiants perdus...
                   <br>Vos offres bénéficient d'une visibilité optimale en quelques secondes.
                 </p>
-                <button id="multiDiffusButton" type="button" name="button">Voir la liste complète</button>
               </div>
-              <div class="col-12 col-xl-5">
+              <div class="col-12 col-xxl-6">
                 <div class="grid">
                   <?php
                     for ($i=0; $i < 16 ; $i++) {
@@ -151,6 +150,7 @@
                     ?>
                  </div>
               </div>
+              <button id="multiDiffusButton" type="button" name="button">Voir la liste complète</button>
             </div>
           </div>
         </div>

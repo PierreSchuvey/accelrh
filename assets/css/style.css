@@ -1,4 +1,10 @@
-
+@font-face {
+    font-family: "Roboto";
+    src: url('../fonts/Roboto-Light.ttf')format("truetype");
+}
+body{
+  font-family:"Roboto";
+}
 section{
    padding-top: 200px;
    text-align: center;
@@ -7,26 +13,31 @@ section{
 .paragraphPanel1{
   text-transform: uppercase;
   color: white;
+  letter-spacing: 3px;
 }
 .paragraphPanel1.bold{
   margin-top: 50px;
   font-weight: bold;
   font-size: 25px;
+  letter-spacing: 3px;
 }
 .subParagraphPanel1{
   color:white;
   text-transform: uppercase;
   font-weight: bold;
   margin-top: 60px;
+  letter-spacing: 3px;
 }
 .paragraphPanel2.bold{
   margin-top: 50px;
   font-weight: bold;
   font-size: 25px;
   text-transform: uppercase;
+  letter-spacing: 3px;
 }
 .paragraphPanel2{
   color:white;
+  letter-spacing: 3px;
 }
 #test{
   height: inherit;
@@ -100,16 +111,19 @@ section{
   color: rgba(227,206,68,1);
 }
 .multiDiffus{
-  font-size: 30px;
-  color:white;
-  text-align: left;
-  text-transform: uppercase;
-}
-.multiDiffusText{
-  margin-top: 20px;
   font-size: 20px;
   color:white;
   text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-top: 40px;
+}
+.multiDiffusText{
+  margin-top: 30px;
+  font-size: 18px;
+  color:white;
+  text-align:justify;
+
 }
 .pagination {
 	position:fixed;
@@ -209,6 +223,7 @@ section{
     /* give it dimensions */
     max-width: 100%;
     top: 0;
+    z-index: 10;
 }
  #mainAccelerh{
    width: 50%;
@@ -221,6 +236,7 @@ section{
 
  .grid {
    border: 1px solid #333;
+   margin-left: 20px;
  }
 
  /* clear fix */
@@ -233,8 +249,8 @@ section{
  .element-item {
    position: relative;
    float: left;
-   width: 80px;
-   height: 80px;
+   width: 90px;
+   height: 90px;
    margin: 2px;
    padding: 10px;
    background: white;
@@ -242,13 +258,16 @@ section{
  }
 
  #multiDiffusButton{
-   width: 100%;
+   width: 50%;
    border: none;
    background-color: white;
    font-weight: bold;
    text-transform: uppercase;
-   font-size: 20px;
+   font-size: 15px;
    padding: 5px;
+   position: relative;
+   top:-50px;
+
  }
 
  .element-item > * {
@@ -256,16 +275,33 @@ section{
    padding: 0;
  }
 
- @media only screen and (max-device-width: 410px) {
-   .paragraphPanel1{
+ @media only screen and (max-device-width: 1399px) {
+
+   #multiDiffusButton{
+     width: 90%;
+     border: none;
+     background-color: white;
+     font-weight: bold;
      text-transform: uppercase;
-     color: white;
-     line-height: 25px;
+     font-size: 15px;
+     padding: 5px;
+     position:inherit;
+     display: block;
+     margin: auto;
+     margin-top: 10px;
+
    }
-   .pagination{
-     right: 0;
+   .panelGroup{
+     margin-top: 20px;
    }
+
+   #thirdPage{
+     height: 980px;
+   }
+
  }
+
+
  @media only screen and (max-device-width: 915px) {
    .scrollable-section{
      padding-top: 30px;
@@ -277,9 +313,20 @@ section{
      height: 900px;
    }
    #secondPage{
-     height: 1080px;
+     height: 1180px;
    }
 
+ }
+
+ @media only screen and (max-device-width: 410px) {
+   .paragraphPanel1{
+     text-transform: uppercase;
+     color: white;
+     line-height: 25px;
+   }
+   .pagination{
+     right: 0;
+   }
  }
  @media only screen and (max-device-height: 650px) {
    .pagination a {
