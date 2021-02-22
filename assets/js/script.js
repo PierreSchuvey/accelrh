@@ -1,4 +1,4 @@
-if(!(/Android|webOS|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i.test(navigator.userAgent) )) {
+if(!window.matchMedia("(max-width: 767px)").matches) {
   $(function() {
     $.scrollify({
   		section:".scrollable-section",
@@ -31,4 +31,7 @@ if(!(/Android|webOS|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i.test(navig
 
 
   });
+  console.log('not mobile')
+}else{
+  console.log('mobile')
 }
