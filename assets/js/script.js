@@ -1,4 +1,4 @@
-if(!window.matchMedia("(max-width: 896px)").matches) {
+if(!window.matchMedia("(max-width: 915px)").matches) {
   $(function() {
     $.scrollify({
   		section:".scrollable-section",
@@ -31,4 +31,6 @@ if(!window.matchMedia("(max-width: 896px)").matches) {
 
 
   });
+}else{
+  $('.pagination').css('display','none');
 }

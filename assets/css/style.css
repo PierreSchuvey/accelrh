@@ -266,7 +266,7 @@ section{
      right: 0;
    }
  }
- @media only screen and (max-device-width: 575px) {
+ @media only screen and (max-device-width: 915px) {
    .scrollable-section{
      padding-top: 30px;
    }
