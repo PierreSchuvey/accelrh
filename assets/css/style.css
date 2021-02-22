@@ -1,3 +1,4 @@
+
 section{
    padding-top: 200px;
    text-align: center;
@@ -38,7 +39,7 @@ section{
 
 #secondPage{
    background: url(../images/backSection2.png) no-repeat center fixed;
-  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  -webkit-background-size: container; /* pour anciens Chrome et Safari */
   background-size: cover;flex: 1;
 }
 
@@ -90,11 +91,7 @@ section{
   background-size: cover;flex: 1;
 }
 
-#firstPanelGroup{
-  margin-top:120px;
-}
-
-#secondPanelGroup{
+.panelGroup{
   margin-top:120px;
 }
 
@@ -270,9 +267,19 @@ section{
    }
  }
  @media screen and (max-width: 575px) {
-   #firstPage{
-     height:120vh;
+   .scrollable-section{
+     padding-top: 30px;
    }
+   .panelGroup{
+     margin-top: 80px;
+   }
+   #firstPage{
+     height: 900px;
+   }
+   #secondPage{
+     height: 1080px;
+   }
+
  }
  @media screen and (max-height: 650px) {
    .pagination a {

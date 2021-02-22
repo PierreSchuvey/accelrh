@@ -4,11 +4,11 @@ $(function() {
     interstitialSection : "",
     easing: "easeOutExpo",
     scrollSpeed: 500,
-    offset : 0,
+    offset : 30,
     scrollbars: true,
     standardScrollElements: "",
     setHeights: false,
-    overflowScroll: false,
+    overflowScroll: true,
     updateHash: true,
     touchScroll:true,
     before:function(){

@@ -2,6 +2,7 @@
 <html lang="fr" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>AcceleRH</title>
@@ -62,7 +63,7 @@
   </ul>
     <section id="firstPage" class="scrollable-section" data-panel="panel1">
         <div style="" class="container">
-          <div id="firstPanelGroup" class="row">
+          <div id="firstPanelGroup" class="panelGroup row">
             <div style="height:500px" class="offset-xl-2 offset-lg-1 col-12 col-lg-10 col-xl-8">
               <div class="row">
                 <div class="col-12">
@@ -95,7 +96,7 @@
     </section>
     <section id="secondPage" class="panel2 scrollable-section" data-panel="panel2">
       <div style="" class="container">
-        <div id="secondPanelGroup" class="row">
+        <div id="secondPanelGroup" class="panelGroup row">
           <div style="height:500px" class="offset-xl-2 offset-lg-1 col-12 col-lg-10 col-xl-8">
             <div class="row">
               <div class="col-12">
@@ -127,7 +128,7 @@
     </section>
     <section id="thirdPage" class="panel3 scrollable-section" data-panel="panel3">
       <div style="" class="container">
-        <div id="secondPanelGroup" class="row">
+        <div id="secondPanelGroup" class="panelGroup row">
           <div style="height:500px" class="offset-xl-2 offset-lg-1 col-12 col-lg-10 col-xl-8">
             <div class="row">
               <div class="col-12 col-xl-7">
