@@ -128,7 +128,7 @@
     </section>
     <section id="thirdPage" class="panel3 scrollable-section" data-panel="panel3">
       <div style="" class="container">
-        <div id="thirdPanelGroup" class="panelGroup row">
+        <div id="secondPanelGroup" class="panelGroup row">
           <div style="height:500px" class="offset-xl-2 offset-lg-1 col-12 col-lg-10 col-xl-8">
             <div class="row">
               <div class="col-12 col-xxl-6">
@@ -169,7 +169,15 @@
       </div>
     </section>
     <section id="fifthPage" class="panel5 scrollable-section" data-panel="panel5">
-          <h1>5</h1>
+      <div id="fifthPanelGroup" class="panelGroup row">
+          <img id="computerImage" class="img-fluid" src="assets/images/computerSection5.png" alt="">
+          <p class="uniquePlateform">Gérez et suivez vos<br> candidatures simplement<br> <b>sur une </b><span class="greenText">plateforme unique</span></p>
+          <p class="uniquePlateformText">
+            Un tableau de bord complet et lisible vous<br> permet de visualiser, trier et qualifier les<b><br> candidatures reçues</b>.
+            Définissez les étapes<br> de votre recrutement, automatisez l'envoi de<br> message, commentez et historisez chaque action...<br>
+            le tout sans votre ancien fichier excel !
+          </p>
+      </div>
     </section>
     <section id="sixthPage" class="panel6 scrollable-section" data-panel="panel6">
           <h1>6</h1>

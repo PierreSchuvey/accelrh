@@ -61,15 +61,16 @@ section{
 }
 
 #fourthPage{
-   background: url(../images/backSection4.png) no-repeat center fixed;
+   background: url(../images/backSection4.png) no-repeat center;
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
   background-size: cover;flex: 1;
 }
 
 #fifthPage{
-   background: url(../images/backSection5.png) no-repeat center fixed;
-  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-  background-size: cover;flex: 1;
+   background-image: url(../images/backSection5Tri.png), url(../images/backSection5.png);
+   background-position: center;
+   background-size: cover;
+
 }
 
 #sixthPage{
@@ -110,6 +111,18 @@ section{
   font-weight: bold;
   color: rgba(227,206,68,1);
 }
+
+#computerSection5{
+  width: 100%;
+  position:absolute;
+  left: 300px;
+
+}
+
+#fifthPanelGroup{
+  display: block;
+  margin-left: 53%;
+}
 .multiDiffus{
   font-size: 20px;
   color:white;
@@ -132,12 +145,12 @@ section{
   letter-spacing: 3px;
   margin-top: 40px;
 }
+
 .createSiteText{
   margin-top: 30px;
   font-size: 18px;
   color:white;
   text-align:justify;
-
 }
 .pagination {
 	position:fixed;
@@ -147,6 +160,24 @@ section{
 	z-index: 10;
   display: inline;
   transform: translate(-50%, -50%);
+}
+.greenText{
+  color: rgba(194,243,27,1);
+  font-weight: bold;
+}
+.uniquePlateform{
+  font-size: 20px;
+  color:white;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding-top: 50px;
+}
+.uniquePlateformText{
+  margin-top: 30px;
+  font-size: 16px;
+  color:white;
+  text-align:left;
 }
 .pagination a {
 	display:block;
@@ -227,6 +258,9 @@ section{
 	bottom:0;
   background-color: black;
 }
+#computerImage{
+  display: none;
+}
 #logoAccelerh{
   position: fixed;
     /* center the element */
@@ -238,6 +272,9 @@ section{
     max-width: 100%;
     top: 0;
     z-index: 10;
+   filter: sepia(100%);
+   -webkit-filter: sepia(100%);
+    }
 }
  #mainAccelerh{
    width: 50%;
@@ -302,7 +339,7 @@ section{
 
    }
    .panelGroup{
-     margin-top: 20px;
+     margin-top: 0px;
    }
 
    #thirdPage{
@@ -319,6 +356,9 @@ section{
    .panelGroup{
      margin-top: 80px;
    }
+   .paragraphPanel2{
+     margin-top: 0;
+   }
    #firstPage{
      height: 900px;
    }
@@ -327,13 +367,31 @@ section{
    }
 
    #fourthPanelGroup{
-     margin-top: 160px;
+     margin-top: 50px;
    }
 
    #fourthPage{
       background: url(../images/backSection4Bis.png) no-repeat center fixed;
      -webkit-background-size: cover; /* pour anciens Chrome et Safari */
      background-size: cover;flex: 1;
+   }
+
+   #fifthPage{
+      background: url(../images/backSection5.png) no-repeat center fixed;
+     -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+     background-size: cover;flex: 1;
+   }
+    #fifthPanelGroup{
+      display: block;
+      margin:auto;
+    }
+    #fifthPanelGroup p{
+      text-align: center;
+    }
+   #computerImage{
+     display: block;
+     margin: auto;
+     width: 50%;
    }
 
  }
