@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/carousel.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
     <title>AcceleRH</title>
   </head>
   <body>
@@ -62,46 +64,13 @@
     </li>
   </ul>
     <section id="firstPage" class="scrollable-section" data-panel="panel1">
-        <div style="" class="container">
-          <div id="firstPanelGroup" class="panelGroup row">
-            <div style="height:500px" class="offset-xl-2 offset-lg-1 col-12 col-lg-10 col-xl-8">
-              <div class="row">
-                <div class="col-12">
-                  <img id="mainAccelerh" src="assets/images/accelerhMain.svg" alt="accelerh">
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-12">
-                  <p class="paragraphPanel1 bold">Organisez et simplifiez</p>
-                  <p class="paragraphPanel1">votre activité de recrutement</p>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-xs-12 col-sm-4">
-                  <p class="subParagraphPanel1">Gagnez du temps</p>
-                  <img style="width:100px;margin-top:20px" class="filter-color" src="assets/images/timePicto.svg" alt="horloge picto">
-                </div>
-                <div class="col-xs-12 col-sm-4">
-                  <p class="subParagraphPanel1">Centralisez vos actions</p>
-                  <img class="filter-color" src="assets/images/rhPicto.png" alt="ressources humaines picto">
-                </div>
-                <div class="col-xs-12 col-sm-4">
-                  <p class="subParagraphPanel1">Economisez</p>
-                  <img class="filter-color" src="assets/images/pourcentPicto.svg" alt="pourcentage picto">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </section>
-    <section id="secondPage" class="panel2 scrollable-section" data-panel="panel2">
       <div style="" class="container">
         <div id="secondPanelGroup" class="panelGroup row">
           <div style="height:500px" class="offset-xl-2 offset-lg-1 col-12 col-lg-10 col-xl-8">
             <div class="row">
               <div class="col-12">
-                <p class="paragraphPanel2 bold">Logiciel RH innovant</p>
-                <p class="paragraphPanel2">Simple d'utilisation qui vous permettra d'améliorer votre processus de recrutement</p>
+                <p class="titleParagraph1">Logiciel RH innovant</p>
+                <p class="subTitleParagraph1">Simple d'utilisation qui vous permettra d'améliorer votre processus de recrutement</p>
               </div>
             </div>
             <div class="row">
@@ -125,6 +94,39 @@
           </div>
         </div>
       </div>
+    </section>
+    <section id="secondPage" class="panel2 scrollable-section" data-panel="panel2">
+          <div style="" class="container">
+            <div id="firstPanelGroup" class="panelGroup row">
+              <div style="height:500px" class="offset-xl-2 offset-lg-1 col-12 col-lg-10 col-xl-8">
+                <div class="row">
+                  <div class="col-12">
+                    <img id="mainAccelerh" src="assets/images/accelerhMain.svg" alt="accelerh">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <p class="titleParagraph2">Organisez et simplifiez</p>
+                    <p class="subTitleParagraph2">votre activité de recrutement</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12 col-sm-4">
+                    <p class="subParagraphPanel2">Gagnez du temps</p>
+                    <img style="width:100px;margin-top:20px" class="filter-color" src="assets/images/timePicto.svg" alt="horloge picto">
+                  </div>
+                  <div class="col-xs-12 col-sm-4">
+                    <p class="subParagraphPanel2">Centralisez vos actions</p>
+                    <img class="filter-color" src="assets/images/rhPicto.png" alt="ressources humaines picto">
+                  </div>
+                  <div class="col-xs-12 col-sm-4">
+                    <p class="subParagraphPanel2">Economisez</p>
+                    <img class="filter-color" src="assets/images/pourcentPicto.svg" alt="pourcentage picto">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
     </section>
     <section id="thirdPage" class="panel3 scrollable-section" data-panel="panel3">
       <div style="" class="container">
@@ -169,7 +171,18 @@
       </div>
     </section>
     <section id="fifthPage" class="panel5 scrollable-section" data-panel="panel5">
-      <div id="fifthPanelGroup" class="panelGroup row">
+      <div id="fifthPanelGroup" class="panelGroup">
+        <img id="computerImage" class="img-fluid" src="assets/images/computerSection5.png" alt="">
+        <p class="uniquePlateform">Gérez et suivez vos<br> candidatures simplement<br> <b>sur une </b><span class="greenText">plateforme unique</span></p>
+        <p class="uniquePlateformText">
+          Un tableau de bord complet et lisible vous<br> permet de visualiser, trier et qualifier les<b><br> candidatures reçues</b>.
+          Définissez les étapes<br> de votre recrutement, automatisez l'envoi de<br> message, commentez et historisez chaque action...<br>
+          le tout sans votre ancien fichier excel !
+        </p>
+      </div>
+    </section>
+    <section id="sixthPage" class="panel6 scrollable-section" data-panel="panel6">
+      <div id="fifthPanelGroup" class="panelGroup">
           <img id="computerImage" class="img-fluid" src="assets/images/computerSection5.png" alt="">
           <p class="uniquePlateform">Gérez et suivez vos<br> candidatures simplement<br> <b>sur une </b><span class="greenText">plateforme unique</span></p>
           <p class="uniquePlateformText">
@@ -179,26 +192,91 @@
           </p>
       </div>
     </section>
-    <section id="sixthPage" class="panel6 scrollable-section" data-panel="panel6">
-          <h1>6</h1>
-    </section>
     <section id="seventhPage" class="panel7 scrollable-section" data-panel="panel7">
-          <h1>7</h1>
+        <div class="panelGroup">
+          <div class="col-12 offset-sm-2 col-sm-4">
+            <p class="cvtheque">Développez<br> et administrez<br><span class="greenText">votre cvthèque</span></p>
+            <p class="cvthequeText">Toutes les candidatures reçues sont désormais centralisées !</p>
+            <p class="cvthequeText"><b>Retrouvez facilement</b> les CVs à l'aide de filtres<br>et de mits-clés grâce à cet outil performant et<br>personnalisable.</p>
+          </div>
+        </div>
     </section>
     <section id="eighthPage" class="panel8 scrollable-section" data-panel="panel8">
-          <h1>8</h1>
+      <div id="fifthPanelGroup" class="panelGroup">
+        <p class="gestionDroits">Travaillez en ésuipe et<br><span class="greenText">gérez les droits</span><b> de chacun</b></p>
+        <p class="gestionDroitsText">
+          Plateforme multi-utilisateurs, notre ATS permet
+          <br>une gestion de droits avancés.
+          <br> Vous souhaitez qu'un expert métier participe à
+          <br> une étape du recrutement ? Pas de problèmes,
+          <br> vous autorisez l'utilisation (ou non) des
+          <br> fonctionnalités de l'outil comme vous le désirez
+          <br> et attribuez des droits personnalisés à chacun !
+        </p>
+      </div>
     </section>
     <section id="ninthPage" class="panel9 scrollable-section" data-panel="panel9">
-          <h1>9</h1>
+        <div class="panelGroup">
+          <div class="col-12 offset-sm-2 col-sm-4">
+            <p class="activity">Analysez et mesurez<br><span class="darkGreenText">votre activité</span></p>
+            <p class="activityText">
+              D'où provient vos candidatures ou vos
+            <br> visiteurs ? Quels jobboards sont les plus
+            <br> efficaces et rentables ? Obtenez des
+            <br> statistiques précises et suivez leurs
+            <br> évolutions pour optimisez le budget de
+            <br> votre service.</p>
+          </div>
+        </div>
     </section>
-    <section id="tenthPage" class="panel10 scrollable-section" data-panel="panel9">
-          <h1>10</h1>
+    <section id="tenthPage" class="panel10 scrollable-section" data-panel="panel10">
+      <div class="panelGroup">
+        <p class="ourClients">Ce qu'en pense nos clients</p>
+        <div class="carousel-container">
+          <div class="carousel-card" id="left">
+            <img class="carousel-icon" src="https://placeimg.com/75/75/tech/grayscale" alt="">
+            <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div id="truc">
+              <img class="profilPicture" src="https://placeimg.com/75/75/tech/grayscale" alt="">
+              <p class="banerText">Lorem ipsum dolor</p>
+            </div>
+          </div>
+          <div class="carousel-card" id="center">
+            <img class="carousel-icon" src="https://placeimg.com/75/75/tech/grayscale" alt="">
+            <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div id="truc">
+              <img class="profilPicture" src="https://placeimg.com/75/75/tech/grayscale" alt="">
+              <p class="banerText">Lorem ipsum dolor</p>
+            </div>
+          </div>
+          <div class="carousel-card" id="right">
+            <img class="carousel-icon" src="https://placeimg.com/75/75/tech/grayscale" alt="">
+            <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div id="truc">
+              <img class="profilPicture" src="https://placeimg.com/75/75/tech/grayscale" alt="">
+              <p class="banerText">Lorem ipsum dolor</p>
+            </div>
+          </div>
+          <div class="carousel-card" id="hidden">
+            <img class="carousel-icon" src="https://placeimg.com/75/75/tech/grayscale" alt="">
+            <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div id="truc">
+              <img class="profilPicture" src="https://placeimg.com/75/75/tech/grayscale" alt="">
+              <p class="banerText">Lorem ipsum dolor</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
+    <div id="contactBar">
+      <p id="callDemo">Demendez une démo</p>
+    </div>
   </body>
   <footer>
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/scrollify.js"></script>
     <script src="assets/bootstrap/js/bootstrap.js"></script>
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/carousel.js"></script>
   </footer>
 </html>

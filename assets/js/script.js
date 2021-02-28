@@ -5,7 +5,7 @@ if(!window.matchMedia("(max-width: 915px)").matches) {
       interstitialSection : "",
       easing: "easeOutExpo",
       scrollSpeed: 500,
-      offset : 30,
+      offset : 0,
       scrollbars: true,
       standardScrollElements: "",
       setHeights: false,

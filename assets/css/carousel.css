@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "DC4";
+    src: url('../fonts/DC4.TTF')format("truetype");
+}
+/* Carousel */
+.about-us-service-title {
+  text-align: center;
+}
+.banerText{
+  margin-top:-52px;
+  margin-left:95px;
+  font-weight: bold;
+}
+.carousel-container {
+  display: flex;
+  text-align: center;
+  position: relative;
+  height: 450px;
+  max-width: 800px;
+  min-width: 600px;
+  margin: 0 auto;
+}
+
+.carousel-text {
+  font-family:"DC4";
+  padding: 37px;
+  text-align:left;
+  font-weight: bold;
+}
+
+.carousel-card {
+  height: 300px;
+  width: 300px;
+  transition: 1s;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  background-color: #F58220;
+  color: rgba(184,184,185,1);
+  cursor: pointer;
+  box-shadow: 1px 2px 3px grey;
+}
+
+.carousel-icon {
+  height: 100px;
+  width: 100px;
+  margin-top: 20px;
+}
+.profilPicture {
+  height: 90px;
+  width: 90px;
+  margin-top: -25px;
+  border-radius: 50%;
+  border: white 5px solid;
+  margin-left: -130px;
+}
+ #truc{
+   width:300px;
+   height: 50px;
+   background-color: white;
+   color: rgba(184,184,185,1);
+   cursor: pointer;
+   box-shadow: 1px 2px 3px grey;
+ }
+#far-left {
+  left: -3%;
+  transform: scale(.9) translateY(0%) translateX(-50%);
+  z-index: 5;
+  background-color: rgba(255,255,255,1);
+  opacity: 0.5;
+}
+
+#left {
+  left: 9%;
+  transform: scale(1) translateY(0%) translateX(-50%);
+  z-index: 10;
+  background-color: rgba(255,255,255,1);
+  opacity: 0.75;
+}
+
+#center {
+  left: 50%;
+  transform: scale(1.05) translateY(0%) translateX(-50%);
+  z-index: 15;
+  background-color: rgba(255,255,255,1);
+}
+
+#right {
+  left: 89%;
+  transform: scale(1) translateY(0%) translateX(-50%);
+  z-index: 10;
+  background-color: rgba(255,255,255,1);
+  opacity: 0.75;
+}
+
+#far-right {
+  left: 100%;
+  transform: scale(.9) translateY(0%) translateX(-50%);
+  z-index: 5;
+  background-color: rgba(255,255,255,1);
+  opacity: 0.5;
+}
+
+#hidden{
+  left: 50%;
+  transform: scale(1.05) translateY(0%) translateX(-50%);
+  z-index: 0;
+  background-color: rgba(255,255,255,1);
+}
+
+.carousel-card:hover {
+
+}
