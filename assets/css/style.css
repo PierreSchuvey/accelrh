@@ -335,6 +335,15 @@ background: url(../images/backSection2.png) no-repeat center fixed;
 #computerImage{
   display: none;
 }
+#groupImage{
+  display: none;
+}
+#droitsImage{
+  display: none;
+}
+#analyseImage{
+  display: none;
+}
 #logoAccelerh{
   position: fixed;
     /* center the element */
@@ -489,7 +498,28 @@ background: url(../images/backSection2.png) no-repeat center fixed;
     #fifthPanelGroup p{
       text-align: center;
     }
+    #seventhPanelGroup p{
+      text-align: center;
+    }
+    #ninthPanelGroup p{
+      text-align: center;
+    }
    #computerImage{
+     display: block;
+     margin: auto;
+     width: 50%;
+   }
+   #groupImage{
+     display: block;
+     margin: auto;
+     width: 50%;
+   }
+   #droitsImage{
+     display: block;
+     margin: auto;
+     width: 50%;
+   }
+   #analyseImage{
      display: block;
      margin: auto;
      width: 50%;

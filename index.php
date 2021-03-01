@@ -193,7 +193,8 @@
       </div>
     </section>
     <section id="seventhPage" class="panel7 scrollable-section" data-panel="panel7">
-        <div class="panelGroup">
+        <div id="seventhPanelGroup" class="panelGroup">
+          <img id="groupImage" class="img-fluid" src="assets/images/groupSection7Image.png" alt="">
           <div class="col-12 offset-sm-2 col-sm-4">
             <p class="cvtheque">Développez<br> et administrez<br><span class="greenText">votre cvthèque</span></p>
             <p class="cvthequeText">Toutes les candidatures reçues sont désormais centralisées !</p>
@@ -203,7 +204,8 @@
     </section>
     <section id="eighthPage" class="panel8 scrollable-section" data-panel="panel8">
       <div id="fifthPanelGroup" class="panelGroup">
-        <p class="gestionDroits">Travaillez en ésuipe et<br><span class="greenText">gérez les droits</span><b> de chacun</b></p>
+        <img id="droitsImage" class="img-fluid" src="assets/images/groupSection8Image.png" alt="">
+        <p class="gestionDroits">Travaillez en équipe et<br><span class="greenText">gérez les droits</span><b> de chacun</b></p>
         <p class="gestionDroitsText">
           Plateforme multi-utilisateurs, notre ATS permet
           <br>une gestion de droits avancés.
@@ -216,7 +218,8 @@
       </div>
     </section>
     <section id="ninthPage" class="panel9 scrollable-section" data-panel="panel9">
-        <div class="panelGroup">
+        <div id="ninthPanelGroup" class="panelGroup">
+          <img id="analyseImage" class="img-fluid" src="assets/images/groupSection9Image.png" alt="">
           <div class="col-12 offset-sm-2 col-sm-4">
             <p class="activity">Analysez et mesurez<br><span class="darkGreenText">votre activité</span></p>
             <p class="activityText">
