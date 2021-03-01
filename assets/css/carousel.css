@@ -16,9 +16,9 @@
   text-align: center;
   position: relative;
   height: 450px;
-  max-width: 800px;
-  min-width: 600px;
+  width: 100%
   margin: 0 auto;
+  overflow: clip;
 }
 
 .carousel-text {
@@ -101,11 +101,19 @@
   opacity: 0.5;
 }
 
-#hidden{
-  left: 50%;
-  transform: scale(1.05) translateY(0%) translateX(-50%);
-  z-index: 0;
+#hidden-right{
+  left: 89%;
+  transform: scale(1) translateY(0%) translateX(500%);
+  z-index: 10;
   background-color: rgba(255,255,255,1);
+  opacity: 0;
+}
+#hidden-left{
+  left: 89%;
+  z-index: 10;
+  transform: scale(1) translateY(0%) translateX(-500%);
+  background-color: rgba(255,255,255,1);
+  opacity: 0;
 }
 
 .carousel-card:hover {

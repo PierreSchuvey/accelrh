@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="assets/css/style.css">
@@ -238,6 +239,14 @@
       <div class="panelGroup">
         <p class="ourClients">Ce qu'en pense nos clients</p>
         <div class="carousel-container">
+          <div class="carousel-card" id="hidden-left">
+            <img class="carousel-icon" src="https://placeimg.com/75/75/tech/grayscale" alt="">
+            <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div id="truc">
+              <img class="profilPicture" src="https://placeimg.com/75/75/tech/grayscale" alt="">
+              <p class="banerText">Lorem ipsum dolor</p>
+            </div>
+          </div>
           <div class="carousel-card" id="left">
             <img class="carousel-icon" src="https://placeimg.com/75/75/tech/grayscale" alt="">
             <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -262,7 +271,7 @@
               <p class="banerText">Lorem ipsum dolor</p>
             </div>
           </div>
-          <div class="carousel-card" id="hidden">
+          <div class="carousel-card" id="hidden-right">
             <img class="carousel-icon" src="https://placeimg.com/75/75/tech/grayscale" alt="">
             <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <div id="truc">
@@ -274,9 +283,10 @@
       </div>
     </section>
     <div class="contactBar">
-      <p id="callDemo">Demendez une démo</p>
+      <p id="callDemo">Demandez une démo</p>
+      <div id="triangle-code"></div>
       <div class="container">
-        <form>
+        <form method="POST" action="mail.php">
           <div class="row">
             <div class="form-group col-12 offset-sm-2 col-sm-4">
               <label for="lastName">Nom<span class="require">*</span></label>
@@ -303,9 +313,10 @@
             <div class="form-group col-12 offset-sm-2 col-sm-4">
               <label for="phone">Téléphone<span class="require">*</span></label>
               <input type="text" class="form-control" name="phone" placeholder="Nom">
+              <div style="margin-top:20px" class="g-recaptcha" data-sitekey="6LcwPm0aAAAAAFLT7jYXWM-pCXJTRWsskSzObmYm"></div>
             </div>
             <div class=" col-12 col-sm-4">
-              <button type="submit" class="btn btn-send">ENVOYER <i class="fas fa-paper-plane"></i></button>
+              <button name="mailform" type="submit" class="btn btn-send">ENVOYER <i class="fas fa-paper-plane"></i></button>
             </div>
           </div>
         </form>
@@ -320,3 +331,33 @@
     <script src="assets/js/carousel.js"></script>
   </footer>
 </html>
+<?php
+if(isset($_POST['mailform'])) {
+   if(!empty($_POST['nom']) AND !empty($_POST['mail']) AND !empty($_POST['message'])) {
+      $header="MIME-Version: 1.0\r\n";
+      $header.='From:"nom_d\'expediteur"<votre@mail.com>'."\n";
+      $header.='Content-Type:text/html; charset="uft-8"'."\n";
+      $header.='Content-Transfer-Encoding: 8bit';
+      $message='
+      <html>
+         <body>
+            <div align="center">
+               <img src="http://www.primfx.com/mailing/banniere.png"/>
+               <br />
+               <u>Nom de l\'expéditeur :</u>'.$_POST['nom'].'<br />
+               <u>Mail de l\'expéditeur :</u>'.$_POST['mail'].'<br />
+               <br />
+               '.nl2br($_POST['message']).'
+               <br />
+               <img src="http://www.primfx.com/mailing/separation.png"/>
+            </div>
+         </body>
+      </html>
+      ';
+      mail("mail@destinataire.com", "Sujet du message", $message, $header);
+      $msg="Votre message a bien été envoyé !";
+   } else {
+      $msg="Tous les champs doivent être complétés !";
+   }
+}
+?>

@@ -35,6 +35,6 @@ if(!window.matchMedia("(max-width: 915px)").matches) {
   $('.pagination').css('display','none');
 }
 
-document.querySelector('.contactBar').addEventListener('click', function() {
+document.querySelector('#callDemo').addEventListener('click', function() {
   document.querySelector('.contactBar').classList.toggle('expand');
 });

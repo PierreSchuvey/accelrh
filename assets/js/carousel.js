@@ -1,6 +1,6 @@
 (function () {
   'use strict';
-  var options = [ 'hidden', 'left', 'center', 'right',  'hidden'];
+  var options = [ 'hidden-left', 'left', 'center', 'right', 'hidden-right'];
   var cards = document.querySelectorAll('.carousel-card');
   addCardListeners();
 
