@@ -1,17 +1,33 @@
-#contactBar{
+.contactBar{
   width: 100%;
   height: 50px;
   background-color: white;
   position: fixed;
   bottom:0;
   z-index: 1000;
-  text-transform: uppercase;
+  transition: all .3s ease;
+   overflow-y: auto;
 }
-#contactBar:hover{
+.contactBar.expand {
+  height: 450px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.contactBar:hover{
   cursor: pointer;
 }
 #callDemo{
   text-align: center;
   font-size: 25px;
   padding-top: 5px;
+  text-transform: uppercase;
+}
+.require{
+  color: red;
+}
+.btn-send{
+  background-color: rgba(244, 66, 128, 1);
+  color: white;
+  width: 100%;
+  margin-top: 25px;
 }

@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/carousel.css">
     <link rel="stylesheet" href="assets/css/contact.css">
@@ -272,8 +273,43 @@
         </div>
       </div>
     </section>
-    <div id="contactBar">
+    <div class="contactBar">
       <p id="callDemo">Demendez une démo</p>
+      <div class="container">
+        <form>
+          <div class="row">
+            <div class="form-group col-12 offset-sm-2 col-sm-4">
+              <label for="lastName">Nom<span class="require">*</span></label>
+              <input type="text" class="form-control" name="lastName" placeholder="Nom">
+            </div>
+            <div class="form-group col-12 col-sm-4">
+              <label for="society">Société<span class="require">*</span></label>
+              <input type="text" class="form-control" name="society" placeholder="Société">
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-12 offset-sm-2 col-sm-4">
+              <label for="firstName">Prénom<span class="require">*</span></label>
+              <input type="text" class="form-control" name="firstName" placeholder="Prénom">
+              <label for="email">E-mail Professionnel<span class="require">*</span></label>
+              <input type="mail" class="form-control" name="email" placeholder="E-mail Professionnel">
+            </div>
+            <div class="form-group col-12 col-sm-4">
+              <label for="message">Message<span class="require">*</span></label>
+              <textarea class="form-control" name="message" rows="3"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-12 offset-sm-2 col-sm-4">
+              <label for="phone">Téléphone<span class="require">*</span></label>
+              <input type="text" class="form-control" name="phone" placeholder="Nom">
+            </div>
+            <div class=" col-12 col-sm-4">
+              <button type="submit" class="btn btn-send">ENVOYER <i class="fas fa-paper-plane"></i></button>
+            </div>
+          </div>
+        </form>
+      </div>
     </div>
   </body>
   <footer>

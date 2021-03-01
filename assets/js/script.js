@@ -31,6 +31,9 @@ if(!window.matchMedia("(max-width: 915px)").matches) {
 
 
   });
+  document.querySelector('.contactBar').addEventListener('click', function() {
+  document.querySelector('.contactBar').classList.toggle('expand');
+});
 }else{
   $('.pagination').css('display','none');
 }
