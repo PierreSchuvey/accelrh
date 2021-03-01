@@ -6,12 +6,12 @@
   bottom:0;
   z-index: 1000;
   transition: all .3s ease;
-   overflow-y: auto;
 }
 .contactBar.expand {
   height: 450px;
   padding-top: 50px;
   padding-bottom: 50px;
+   overflow-y: auto;
 }
 .contactBar:hover{
   cursor: pointer;
