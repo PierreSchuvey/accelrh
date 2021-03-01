@@ -344,6 +344,9 @@ background: url(../images/backSection2.png) no-repeat center fixed;
 #analyseImage{
   display: none;
 }
+#createImage{
+  display: none;
+}
 #logoAccelerh{
   position: fixed;
     /* center the element */
@@ -518,6 +521,11 @@ background: url(../images/backSection2.png) no-repeat center fixed;
      display: block;
      margin: auto;
      width: 50%;
+   }
+   #createImage{
+     display: block;
+     margin: auto;
+     width: 100%;
    }
    #analyseImage{
      display: block;

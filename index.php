@@ -161,6 +161,7 @@
     <section id="fourthPage" class="panel4 scrollable-section" data-panel="panel4">
       <div style="" class="container">
         <div id="fourthPanelGroup" class="panelGroup row">
+          <img id="createImage" class="img-fluid" src="assets/images/groupSection5Image.png" alt="">
           <div class=" col-12 offset-sm-3 col-sm-6 offset-xl-4 col-xl-4">
             <p class="createSite">Créez votre<br> <b>site emploi</b> <span id="yellowText">sur-mesure</span></p>
             <hr style="color:rgba(227,206,68,1);width:75%">
