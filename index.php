@@ -367,7 +367,7 @@
             <div class="form-group col-12 offset-sm-2 col-sm-4">
               <label for="phone">Téléphone<span class="require">*</span></label>
               <input type="text" class="form-control" name="phone" placeholder="Nom">
-              <div style="margin-top:20px" class="g-recaptcha" data-sitekey="6LcwPm0aAAAAAFLT7jYXWM-pCXJTRWsskSzObmYm"></div>
+              <div style="margin-top:20px" class="g-recaptcha" data-sitekey="6LdLq24aAAAAACAUYqhVahq74A2bnPrLW8YPuPcU"></div>
             </div>
             <div class=" col-12 col-sm-4">
               <button name="mailform" type="submit" class="btn btn-send">ENVOYER <i class="fas fa-paper-plane"></i></button>
