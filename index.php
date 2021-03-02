@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/flickity.css" media="screen">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/carousel.css">
@@ -281,6 +282,58 @@
             </div>
           </div>
         </div>
+      <div class="main-gallery">
+        <div style="width:100%" class="gallery-cell">
+          <div class="flickity-card">
+            <img class="carousel-icon" src="https://placeimg.com/75/75/tech/grayscale" alt="">
+            <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div id="truc">
+              <img class="profilPicture" src="https://placeimg.com/75/75/tech/grayscale" alt="">
+              <p class="banerText">Lorem ipsum dolor</p>
+            </div>
+          </div>
+        </div>
+        <div style="width:100%" class="gallery-cell">
+          <div class="flickity-card">
+            <img class="carousel-icon" src="https://placeimg.com/75/75/tech/grayscale" alt="">
+            <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div id="truc">
+              <img class="profilPicture" src="https://placeimg.com/75/75/tech/grayscale" alt="">
+              <p class="banerText">Lorem ipsum dolor</p>
+            </div>
+          </div>
+        </div>
+            <div style="width:100%" class="gallery-cell">
+              <div class="flickity-card">
+                <img class="carousel-icon" src="https://placeimg.com/75/75/tech/grayscale" alt="">
+                <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <div id="truc">
+                  <img class="profilPicture" src="https://placeimg.com/75/75/tech/grayscale" alt="">
+                  <p class="banerText">Lorem ipsum dolor</p>
+                </div>
+              </div>
+            </div>
+            <div style="width:100%" class="gallery-cell">
+              <div class="flickity-card">
+                <img class="carousel-icon" src="https://placeimg.com/75/75/tech/grayscale" alt="">
+                <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <div id="truc">
+                  <img class="profilPicture" src="https://placeimg.com/75/75/tech/grayscale" alt="">
+                  <p class="banerText">Lorem ipsum dolor</p>
+                </div>
+              </div>
+            </div>
+              <div style="width:100%" class="gallery-cell">
+                <div class="flickity-card">
+                  <img class="carousel-icon" src="https://placeimg.com/75/75/tech/grayscale" alt="">
+                  <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <div id="truc">
+                    <img class="profilPicture" src="https://placeimg.com/75/75/tech/grayscale" alt="">
+                    <p class="banerText">Lorem ipsum dolor</p>
+                  </div>
+                </div>
+              </div>
+          </div>
       </div>
     </section>
     <div class="contactBar">
@@ -327,6 +380,7 @@
   <footer>
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/scrollify.js"></script>
+    <script src="assets/js/flickity.js"></script>
     <script src="assets/bootstrap/js/bootstrap.js"></script>
     <script src="assets/js/script.js"></script>
     <script src="assets/js/carousel.js"></script>

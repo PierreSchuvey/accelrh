@@ -117,6 +117,7 @@ background: url(../images/backSection2.png) no-repeat center fixed;
 
 .panelGroup{
   margin-top:120px;
+  padding:10px;
 }
 
 #yellowText{
@@ -443,6 +444,9 @@ background: url(../images/backSection2.png) no-repeat center fixed;
    }
    .paragraphPanel2{
      margin-top: 0;
+   }
+   #secondPanelGroup{
+     margin-top: 20px;
    }
    #firstPage{
    height: 1180px;

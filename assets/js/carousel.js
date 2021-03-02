@@ -63,4 +63,14 @@
 
     return parents;
   };
+  var $carousel = $('.carousel').flickity({
+  imagesLoaded: true,
+  percentPosition: false,
+});
+
+var flkty = new Flickity( '.main-gallery', {
+  // options
+  cellAlign: 'left',
+  contain: true
+});
 })();
