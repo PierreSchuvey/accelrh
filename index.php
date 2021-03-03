@@ -136,7 +136,7 @@
       <div style="" class="container">
         <div id="secondPanelGroup" class="panelGroup row">
           <div style="height:500px" class="offset-xl-2 offset-lg-1 col-12 col-lg-10 col-xl-8">
-            <div class="row">
+            <div style="--bs-gutter-x:0" class="row">
               <div class="col-12 col-xxl-6">
                 <p class="multiDiffus"><span id="yellowText">Multi-diffusez</span> <b>vos</b> <br>offres d'emploi / formation</p>
                 <p class="multiDiffusText">
