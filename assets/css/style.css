@@ -10,6 +10,9 @@ section{
 p{
   font-family:"DC4";
 }
+body{
+  overflow-x: hidden;
+}
 .titleParagraph1{
   text-transform: uppercase;
   color: white;
@@ -137,7 +140,7 @@ background: url(../images/backSection2.png) no-repeat center fixed;
   margin-left: 53%;
 }
 .multiDiffus{
-  font-size: 20px;
+  font-size: 30px;
   color:white;
   text-align: left;
   text-transform: uppercase;
@@ -145,13 +148,13 @@ background: url(../images/backSection2.png) no-repeat center fixed;
   margin-top: 40px;
 }
 .multiDiffusText{
-  margin-top: 30px;
+  margin-top: -10px;
   font-size: 19px;
   color:white;
   text-align:justify;
 }
 .createSite{
-  font-size: 20px;
+  font-size: 30px;
   color:white;
   text-align: left;
   text-transform: uppercase;
@@ -189,6 +192,7 @@ background: url(../images/backSection2.png) no-repeat center fixed;
   text-transform: uppercase;
   letter-spacing: 3px;
   line-height: 1.3;
+  margin-top: 10px;
 }
 .uniquePlateformText{
   margin-top: 30px;
@@ -205,6 +209,7 @@ background: url(../images/backSection2.png) no-repeat center fixed;
   text-transform: uppercase;
   letter-spacing: 3px;
   line-height: 1.3;
+  margin-top:15px;
 }
 .gestionDroitsText{
   margin-top: 60px;
@@ -503,13 +508,13 @@ background: url(../images/backSection2.png) no-repeat center fixed;
       margin:auto;
     }
     #fifthPanelGroup p{
-      text-align: center;
+      text-align: left;
     }
     #seventhPanelGroup p{
-      text-align: center;
+      text-align: left;
     }
     #ninthPanelGroup p{
-      text-align: center;
+      text-align: left;
     }
    #computerImage{
      display: block;

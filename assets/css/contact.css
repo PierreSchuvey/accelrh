@@ -6,8 +6,8 @@
  border-bottom : 10px solid rgba(56,64,72,1);
  border-left : 10px solid transparent;
  margin:auto;
-position: relative;
-top:-19px;
+  position: relative;
+  top:-12px;
 }
 .contactBar{
   width: 100%;
@@ -19,7 +19,6 @@ top:-19px;
   transition: all .3s ease;
   border-bottom:solid rgba(56,64,72,1); 3px;
   color:rgba(56,64,72,1);
-  letter-spacing: 3px;
 }
 .contactBar.expand {
   height: 450px;
@@ -35,9 +34,10 @@ top:-19px;
 }
 #callDemo{
   text-align: center;
-  font-size: 20px;
+  font-size: 16px;
   padding-top: 10px;
   text-transform: uppercase;
+  font-weight: bold;
 }
 .require{
   color: red;
@@ -50,7 +50,7 @@ top:-19px;
 }
 @media only screen and (max-device-width: 575px) {
   .contactBar.expand {
-    height: 620px;
+    height: 100vh;
     padding-bottom: 20px;
   }
 

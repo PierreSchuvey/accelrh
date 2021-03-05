@@ -137,7 +137,7 @@
         <div id="secondPanelGroup" class="panelGroup row">
           <div style="height:500px" class="offset-xl-2 offset-lg-1 col-12 col-lg-10 col-xl-8">
             <div style="--bs-gutter-x:0" class="row">
-              <div class="col-12 col-xxl-6">
+              <div class="offset-2 col-9 offset-sm-0 col-sm-12 col-xxl-6">
                 <p class="multiDiffus"><span id="yellowText">Multi-diffusez</span> <b>vos</b> <br>offres d'emploi / formation</p>
                 <p class="multiDiffusText">
                   En <b>quelques clics</b>, créer vos annonces et publier les d'un seul coup sur les sites de votre choix.
@@ -166,7 +166,7 @@
       <div style="" class="container">
         <div id="fourthPanelGroup" class="panelGroup row">
           <img id="createImage" class="img-fluid" src="assets/images/groupSection5Image.png" alt="">
-          <div class=" col-12 offset-sm-3 col-sm-6 offset-xl-4 col-xl-4">
+          <div class="offset-2 col-9 offset-sm-3 col-sm-6 offset-xl-4 col-xl-4">
             <p class="createSite">Créez votre<br> <b>site emploi</b> <span id="yellowText">sur-mesure</span></p>
             <hr style="color:rgba(227,206,68,1);width:75%">
             <p class="createSiteText">Valorisez votre marque employeur avec un site de recrutement personnalisé, <b>moderne et modulable !</b></p>
@@ -176,31 +176,35 @@
       </div>
     </section>
     <section id="fifthPage" class="panel5 scrollable-section" data-panel="panel5">
-      <div id="fifthPanelGroup" class="panelGroup">
+      <div id="fifthPanelGroup" class="panelGroup row">
         <img id="computerImage" class="img-fluid" src="assets/images/computerSection5.png" alt="">
-        <p class="uniquePlateform">Gérez et suivez vos<br> candidatures simplement<br> <b>sur une </b><span class="greenText">plateforme unique</span></p>
-        <p class="uniquePlateformText">
-          Un tableau de bord complet et lisible vous<br> permet de visualiser, trier et qualifier les<b><br> candidatures reçues</b>.
-          Définissez les étapes<br> de votre recrutement, automatisez l'envoi de<br> message, commentez et historisez chaque action...<br>
-          le tout sans votre ancien fichier excel !
-        </p>
-      </div>
-    </section>
-    <section id="sixthPage" class="panel6 scrollable-section" data-panel="panel6">
-      <div id="fifthPanelGroup" class="panelGroup">
-          <img id="computerImage" class="img-fluid" src="assets/images/computerSection5.png" alt="">
+        <div class="offset-2 offset-sm-0 col-9">
           <p class="uniquePlateform">Gérez et suivez vos<br> candidatures simplement<br> <b>sur une </b><span class="greenText">plateforme unique</span></p>
           <p class="uniquePlateformText">
             Un tableau de bord complet et lisible vous<br> permet de visualiser, trier et qualifier les<b><br> candidatures reçues</b>.
             Définissez les étapes<br> de votre recrutement, automatisez l'envoi de<br> message, commentez et historisez chaque action...<br>
             le tout sans votre ancien fichier excel !
           </p>
+        </div>
+      </div>
+    </section>
+    <section id="sixthPage" class="panel6 scrollable-section" data-panel="panel6">
+      <div id="fifthPanelGroup" class="panelGroup row">
+          <img id="computerImage" class="img-fluid" src="assets/images/computerSection5.png" alt="">
+          <div class="offset-2 offset-sm-0 col-9">
+          <p class="uniquePlateform">Gérez et suivez vos<br> candidatures simplement<br> <b>sur une </b><span class="greenText">plateforme unique</span></p>
+          <p class="uniquePlateformText">
+            Un tableau de bord complet et lisible vous<br> permet de visualiser, trier et qualifier les<b><br> candidatures reçues</b>.
+            Définissez les étapes<br> de votre recrutement, automatisez l'envoi de<br> message, commentez et historisez chaque action...<br>
+            le tout sans votre ancien fichier excel !
+          </p>
+        </div>
       </div>
     </section>
     <section id="seventhPage" class="panel7 scrollable-section" data-panel="panel7">
-        <div id="seventhPanelGroup" class="panelGroup">
+        <div id="seventhPanelGroup" class="panelGroup row">
           <img id="groupImage" class="img-fluid" src="assets/images/groupSection7Image.png" alt="">
-          <div class="col-12 offset-sm-2 col-sm-4">
+          <div class="offset-2 col-9 offset-sm-2 col-sm-4">
             <p class="cvtheque">Développez<br> et administrez<br><span class="greenText">votre cvthèque</span></p>
             <p class="cvthequeText">Toutes les candidatures reçues sont désormais centralisées !</p>
             <p class="cvthequeText"><b>Retrouvez facilement</b> les CVs à l'aide de filtres<br>et de mits-clés grâce à cet outil performant et<br>personnalisable.</p>
@@ -208,8 +212,9 @@
         </div>
     </section>
     <section id="eighthPage" class="panel8 scrollable-section" data-panel="panel8">
-      <div id="fifthPanelGroup" class="panelGroup">
+      <div id="fifthPanelGroup" class="panelGroup row">
         <img id="droitsImage" class="img-fluid" src="assets/images/groupSection8Image.png" alt="">
+        <div class="offset-2 col-9 offset-sm-3 offset-md-0 col-sm-12">
         <p class="gestionDroits">Travaillez en équipe et<br><span class="greenText">gérez les droits</span><b> de chacun</b></p>
         <p class="gestionDroitsText">
           Plateforme multi-utilisateurs, notre ATS permet
@@ -220,12 +225,13 @@
           <br> fonctionnalités de l'outil comme vous le désirez
           <br> et attribuez des droits personnalisés à chacun !
         </p>
+        </div
       </div>
     </section>
     <section id="ninthPage" class="panel9 scrollable-section" data-panel="panel9">
         <div id="ninthPanelGroup" class="panelGroup">
           <img id="analyseImage" class="img-fluid" src="assets/images/groupSection9Image.png" alt="">
-          <div class="col-12 offset-sm-2 col-sm-4">
+          <div class="offset-2 col-9 offset-sm-2 col-sm-4">
             <p class="activity">Analysez et mesurez<br><span class="darkGreenText">votre activité</span></p>
             <p class="activityText">
               D'où provient vos candidatures ou vos
@@ -360,7 +366,7 @@
             </div>
             <div class="form-group col-12 col-sm-4">
               <label for="message">Message<span class="require">*</span></label>
-              <textarea class="form-control" name="message" rows="3"></textarea>
+              <textarea class="form-control" name="message" rows="1.5"></textarea>
             </div>
           </div>
           <div class="row">
