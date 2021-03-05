@@ -71,6 +71,12 @@
       <div style="" class="container">
         <div id="secondPanelGroup" class="panelGroup row">
           <div style="height:500px" class="offset-xl-2 offset-lg-1 col-12 col-lg-10 col-xl-8">
+
+              <div class="row">
+                <div class="col-12">
+                  <img id="mainAccelerh" src="assets/images/accelerhMain.svg" alt="accelerh">
+                </div>
+              </div>
             <div class="row">
               <div class="col-12">
                 <p class="titleParagraph1">Logiciel RH innovant</p>
@@ -105,11 +111,6 @@
               <div style="height:500px" class="offset-xl-2 offset-lg-1 col-12 col-lg-10 col-xl-8">
                 <div class="row">
                   <div class="col-12">
-                    <img id="mainAccelerh" src="assets/images/accelerhMain.svg" alt="accelerh">
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-12">
                     <p class="titleParagraph2">Organisez et simplifiez</p>
                     <p class="subTitleParagraph2">votre activité de recrutement</p>
                   </div>
@@ -138,7 +139,7 @@
           <div style="height:500px" class="offset-xl-2 offset-lg-1 col-12 col-lg-10 col-xl-8">
             <div style="--bs-gutter-x:0" class="row">
               <div class="offset-2 col-9 offset-sm-0 col-sm-12 col-xxl-6">
-                <p class="multiDiffus"><span id="yellowText">Multi-diffusez</span> <b>vos</b> <br>offres d'emploi / formation</p>
+                <p class="multiDiffus title"><span id="yellowText">Multi-diffusez</span> <b>vos</b> <br>offres d'emploi / formation</p>
                 <p class="multiDiffusText">
                   En <b>quelques clics</b>, créer vos annonces et publier les d'un seul coup sur les sites de votre choix.
                   <br>Finie la corvée des comptes multiples, des identifiants perdus...
@@ -167,7 +168,7 @@
         <div id="fourthPanelGroup" class="panelGroup row">
           <img id="createImage" class="img-fluid" src="assets/images/groupSection5Image.png" alt="">
           <div class="offset-2 col-9 offset-sm-3 col-sm-6 offset-xl-4 col-xl-4">
-            <p class="createSite">Créez votre<br> <b>site emploi</b> <span id="yellowText">sur-mesure</span></p>
+            <p class="createSite title">Créez votre<br> <b>site emploi</b> <span id="yellowText">sur-mesure</span></p>
             <hr style="color:rgba(227,206,68,1);width:75%">
             <p class="createSiteText">Valorisez votre marque employeur avec un site de recrutement personnalisé, <b>moderne et modulable !</b></p>
             <p class="createSiteText">Ce site est votre 1er contact avec le candidat, il faut qu'il soit à votre image, facile d'utilisation et performant pour attirer le plus de candidats.</p>
@@ -179,7 +180,7 @@
       <div id="fifthPanelGroup" class="panelGroup row">
         <img id="computerImage" class="img-fluid" src="assets/images/computerSection5.png" alt="">
         <div class="offset-2 offset-sm-0 col-9">
-          <p class="uniquePlateform">Gérez et suivez vos<br> candidatures simplement<br> <b>sur une </b><span class="greenText">plateforme unique</span></p>
+          <p class="uniquePlateform title">Gérez et suivez vos<br> candidatures simplement<br> <b>sur une </b><span class="greenText">plateforme unique</span></p>
           <p class="uniquePlateformText">
             Un tableau de bord complet et lisible vous<br> permet de visualiser, trier et qualifier les<b><br> candidatures reçues</b>.
             Définissez les étapes<br> de votre recrutement, automatisez l'envoi de<br> message, commentez et historisez chaque action...<br>
@@ -192,7 +193,7 @@
       <div id="fifthPanelGroup" class="panelGroup row">
           <img id="computerImage" class="img-fluid" src="assets/images/computerSection5.png" alt="">
           <div class="offset-2 offset-sm-0 col-9">
-          <p class="uniquePlateform">Gérez et suivez vos<br> candidatures simplement<br> <b>sur une </b><span class="greenText">plateforme unique</span></p>
+          <p class="uniquePlateform title">Gérez et suivez vos<br> candidatures simplement<br> <b>sur une </b><span class="greenText">plateforme unique</span></p>
           <p class="uniquePlateformText">
             Un tableau de bord complet et lisible vous<br> permet de visualiser, trier et qualifier les<b><br> candidatures reçues</b>.
             Définissez les étapes<br> de votre recrutement, automatisez l'envoi de<br> message, commentez et historisez chaque action...<br>
@@ -205,7 +206,7 @@
         <div id="seventhPanelGroup" class="panelGroup row">
           <img id="groupImage" class="img-fluid" src="assets/images/groupSection7Image.png" alt="">
           <div class="offset-2 col-9 offset-sm-2 col-sm-4">
-            <p class="cvtheque">Développez<br> et administrez<br><span class="greenText">votre cvthèque</span></p>
+            <p class="cvtheque title">Développez<br> et administrez<br><span class="greenText">votre cvthèque</span></p>
             <p class="cvthequeText">Toutes les candidatures reçues sont désormais centralisées !</p>
             <p class="cvthequeText"><b>Retrouvez facilement</b> les CVs à l'aide de filtres<br>et de mits-clés grâce à cet outil performant et<br>personnalisable.</p>
           </div>
@@ -215,7 +216,7 @@
       <div id="fifthPanelGroup" class="panelGroup row">
         <img id="droitsImage" class="img-fluid" src="assets/images/groupSection8Image.png" alt="">
         <div class="offset-2 col-9 offset-sm-3 offset-md-0 col-sm-12">
-        <p class="gestionDroits">Travaillez en équipe et<br><span class="greenText">gérez les droits</span><b> de chacun</b></p>
+        <p class="gestionDroits title">Travaillez en équipe et<br><span class="greenText">gérez les droits</span><b> de chacun</b></p>
         <p class="gestionDroitsText">
           Plateforme multi-utilisateurs, notre ATS permet
           <br>une gestion de droits avancés.
@@ -232,7 +233,7 @@
         <div id="ninthPanelGroup" class="panelGroup">
           <img id="analyseImage" class="img-fluid" src="assets/images/groupSection9Image.png" alt="">
           <div class="offset-2 col-9 offset-sm-2 col-sm-4">
-            <p class="activity">Analysez et mesurez<br><span class="darkGreenText">votre activité</span></p>
+            <p class="activity title">Analysez et mesurez<br><span class="darkGreenText">votre activité</span></p>
             <p class="activityText">
               D'où provient vos candidatures ou vos
             <br> visiteurs ? Quels jobboards sont les plus
@@ -244,7 +245,7 @@
         </div>
     </section>
     <section id="tenthPage" class="panel10 scrollable-section" data-panel="panel10">
-      <div class="panelGroup">
+      <div id="carouselPanel" class="panelGroup">
         <p class="ourClients">Ce qu'en pense nos clients</p>
         <div class="carousel-container">
           <div class="carousel-card" id="hidden-left">
@@ -343,6 +344,11 @@
       </div>
     </section>
     <div class="contactBar">
+      <div id="closeForm" class="row">
+        <div class="offset-10 col-2">
+          <button type="button" name="button">X</button>
+        </div>
+      </div>
       <p id="callDemo">Demandez une démo</p>
       <div id="triangle-code"></div>
       <div class="container">

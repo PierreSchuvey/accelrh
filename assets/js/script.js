@@ -38,3 +38,6 @@ if(!window.matchMedia("(max-width: 915px)").matches) {
 document.querySelector('#callDemo').addEventListener('click', function() {
   document.querySelector('.contactBar').classList.toggle('expand');
 });
+document.querySelector('#closeForm').addEventListener('click', function() {
+  document.querySelector('.contactBar').classList.toggle('expand');
+});
