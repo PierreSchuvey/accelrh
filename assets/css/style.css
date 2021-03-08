@@ -58,6 +58,12 @@ body{
   letter-spacing: 3px;
   font-size: 18px;
 }
+#seventhPanelGroup{
+  margin-top:0px;
+}
+#ninthPanelGroup{
+  margin-top:0px;
+}
 #firstPage{
 background: url(../images/backSection2.png) no-repeat center fixed;
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
@@ -248,7 +254,6 @@ background: url(../images/backSection2.png) no-repeat center fixed;
   letter-spacing: 3px;
   line-height: 1.3;
   padding-right: 30px;
-  padding-top: 60px;
 }
 .activityText{
   margin-top: 30px;
@@ -348,12 +353,14 @@ background: url(../images/backSection2.png) no-repeat center fixed;
 }
 #groupImage{
   display: none;
+  margin-bottom: 15px;
 }
 #droitsImage{
   display: none;
 }
 #analyseImage{
   display: none;
+  margin-bottom: 15px;
 }
 #createImage{
   display: none;
@@ -455,6 +462,9 @@ background: url(../images/backSection2.png) no-repeat center fixed;
    .title{
      font-size: 24px;
    }
+   .multiDiffus.title{
+     margin-bottom: 40px;
+   }
    .scrollable-section{
      padding-top: 30px;
    }
@@ -479,7 +489,7 @@ background: url(../images/backSection2.png) no-repeat center fixed;
    }
 
    #fourthPanelGroup{
-     margin-top: 50px;
+     margin-top: -20px;
    }
 
    #fourthPage{

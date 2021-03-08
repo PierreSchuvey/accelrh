@@ -249,42 +249,42 @@
         <p class="ourClients">Ce qu'en pense nos clients</p>
         <div class="carousel-container">
           <div class="carousel-card" id="hidden-left">
-            <img class="carousel-icon" src="https://placeimg.com/75/75/tech/grayscale" alt="">
+            <img class="carousel-icon" src="assets/images/logoEntreprise1.png" alt="">
             <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <div id="truc">
-              <img class="profilPicture" src="https://placeimg.com/75/75/tech/grayscale" alt="">
+              <img class="profilPicture" src="assets/images/visageClient1.png" alt="">
               <p class="banerText">Lorem ipsum dolor</p>
             </div>
           </div>
           <div class="carousel-card" id="left">
-            <img class="carousel-icon" src="https://placeimg.com/75/75/tech/grayscale" alt="">
+            <img class="carousel-icon" src="assets/images/logoEntreprise1.png" alt="">
             <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <div id="truc">
-              <img class="profilPicture" src="https://placeimg.com/75/75/tech/grayscale" alt="">
+              <img class="profilPicture" src="assets/images/visageClient1.png" alt="">
               <p class="banerText">Lorem ipsum dolor</p>
             </div>
           </div>
           <div class="carousel-card" id="center">
-            <img class="carousel-icon" src="https://placeimg.com/75/75/tech/grayscale" alt="">
+            <img class="carousel-icon" src="assets/images/logoEntreprise1.png" alt="">
             <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <div id="truc">
-              <img class="profilPicture" src="https://placeimg.com/75/75/tech/grayscale" alt="">
+              <img class="profilPicture" src="assets/images/visageClient1.png" alt="">
               <p class="banerText">Lorem ipsum dolor</p>
             </div>
           </div>
           <div class="carousel-card" id="right">
-            <img class="carousel-icon" src="https://placeimg.com/75/75/tech/grayscale" alt="">
+            <img class="carousel-icon" src="assets/images/logoEntreprise1.png" alt="">
             <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <div id="truc">
-              <img class="profilPicture" src="https://placeimg.com/75/75/tech/grayscale" alt="">
+              <img class="profilPicture" src="assets/images/visageClient1.png" alt="">
               <p class="banerText">Lorem ipsum dolor</p>
             </div>
           </div>
           <div class="carousel-card" id="hidden-right">
-            <img class="carousel-icon" src="https://placeimg.com/75/75/tech/grayscale" alt="">
+            <img class="carousel-icon" src="assets/images/logoEntreprise1.png" alt="">
             <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <div id="truc">
-              <img class="profilPicture" src="https://placeimg.com/75/75/tech/grayscale" alt="">
+              <img class="profilPicture" src="assets/images/visageClient1.png" alt="">
               <p class="banerText">Lorem ipsum dolor</p>
             </div>
           </div>
@@ -292,50 +292,50 @@
       <div class="main-gallery">
         <div style="width:100%" class="gallery-cell">
           <div class="flickity-card">
-            <img class="carousel-icon" src="https://placeimg.com/75/75/tech/grayscale" alt="">
+            <img class="carousel-icon" src="assets/images/logoEntreprise1.png" alt="">
             <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <div id="truc">
-              <img class="profilPicture" src="https://placeimg.com/75/75/tech/grayscale" alt="">
+              <img class="profilPicture" src="assets/images/visageClient1.png" alt="">
               <p class="banerText">Lorem ipsum dolor</p>
             </div>
           </div>
         </div>
         <div style="width:100%" class="gallery-cell">
           <div class="flickity-card">
-            <img class="carousel-icon" src="https://placeimg.com/75/75/tech/grayscale" alt="">
+            <img class="carousel-icon" src="assets/images/logoEntreprise1.png" alt="">
             <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <div id="truc">
-              <img class="profilPicture" src="https://placeimg.com/75/75/tech/grayscale" alt="">
+              <img class="profilPicture" src="assets/images/visageClient1.png" alt="">
               <p class="banerText">Lorem ipsum dolor</p>
             </div>
           </div>
         </div>
             <div style="width:100%" class="gallery-cell">
               <div class="flickity-card">
-                <img class="carousel-icon" src="https://placeimg.com/75/75/tech/grayscale" alt="">
+                <img class="carousel-icon" src="assets/images/logoEntreprise1.png" alt="">
                 <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <div id="truc">
-                  <img class="profilPicture" src="https://placeimg.com/75/75/tech/grayscale" alt="">
+                  <img class="profilPicture" src="assets/images/visageClient1.png" alt="">
                   <p class="banerText">Lorem ipsum dolor</p>
                 </div>
               </div>
             </div>
             <div style="width:100%" class="gallery-cell">
               <div class="flickity-card">
-                <img class="carousel-icon" src="https://placeimg.com/75/75/tech/grayscale" alt="">
+                <img class="carousel-icon" src="assets/images/logoEntreprise1.png" alt="">
                 <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <div id="truc">
-                  <img class="profilPicture" src="https://placeimg.com/75/75/tech/grayscale" alt="">
+                  <img class="profilPicture" src="assets/images/visageClient1.png" alt="">
                   <p class="banerText">Lorem ipsum dolor</p>
                 </div>
               </div>
             </div>
               <div style="width:100%" class="gallery-cell">
                 <div class="flickity-card">
-                  <img class="carousel-icon" src="https://placeimg.com/75/75/tech/grayscale" alt="">
+                  <img class="carousel-icon" src="assets/images/logoEntreprise1.png" alt="">
                   <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                   <div id="truc">
-                    <img class="profilPicture" src="https://placeimg.com/75/75/tech/grayscale" alt="">
+                    <img class="profilPicture" src="assets/images/visageClient1.png" alt="">
                     <p class="banerText">Lorem ipsum dolor</p>
                   </div>
                 </div>
