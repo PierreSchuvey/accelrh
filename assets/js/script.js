@@ -4,7 +4,7 @@ if(!window.matchMedia("(max-width: 915px)").matches) {
   		section:".scrollable-section",
       interstitialSection : "",
       easing: "easeOutExpo",
-      scrollSpeed: 500,
+      scrollSpeed: 100,
       offset : 0,
       scrollbars: true,
       standardScrollElements: "",
