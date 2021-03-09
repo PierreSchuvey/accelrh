@@ -59,10 +59,10 @@ body{
   font-size: 18px;
 }
 #seventhPanelGroup{
-  margin-top:0px;
+  margin-top:165px;
 }
 #ninthPanelGroup{
-  margin-top:0px;
+  margin-top:165px;
 }
 #firstPage{
 background: url(../images/backSection2.png) no-repeat center fixed;
@@ -566,6 +566,12 @@ background: url(../images/backSection2.png) no-repeat center fixed;
    }
    #mainAccelerh{
      margin-top: 50px;
+   }
+   #seventhPanelGroup{
+     margin-top:10px;
+   }
+   #ninthPanelGroup{
+     margin-top:10px;
    }
 
  }
