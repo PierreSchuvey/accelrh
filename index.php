@@ -86,7 +86,7 @@
             <div class="row">
               <div class="col-xs-12 col-sm-3">
                 <p class="subParagraphPanel1">Gérez vos recrutements</p>
-                <img style="width:100px;margin-top:20px" class="filter-color" src="assets/images/pictoDownload.png" alt="horloge picto">
+                <img style="width:150px;margin-top:-20px" class="filter-color" src="assets/images/pictoUpload.svg" alt="horloge picto">
               </div>
               <div class="col-xs-12 col-sm-3">
                 <p class="subParagraphPanel1">Multidiffusez vos offres</p>
@@ -94,7 +94,7 @@
               </div>
               <div class="col-xs-12 col-sm-3">
                 <p class="subParagraphPanel1">Gérez vos candidatures</p>
-                <img style="width:100px;margin-top:20px" class="filter-color" src="assets/images/pictoUpload.png" alt="pourcentage picto">
+                <img style="width:150px;margin-top:-20px" class="filter-color" src="assets/images/pictoDownload.svg" alt="pourcentage picto">
               </div>
               <div class="col-xs-12 col-sm-3">
                 <p class="subParagraphPanel1">Gérez votre <br> cvthèque</p>
