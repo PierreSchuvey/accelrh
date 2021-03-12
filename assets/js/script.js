@@ -27,7 +27,11 @@ if(!window.matchMedia("(max-width: 915px)").matches) {
       $(".pagination .active").removeClass("active");
       $(this).addClass("active");
     });
-
+    $(".buttonStart").on("click",function() {
+      $.scrollify.move($(this).attr("href"));
+      $(".pagination .active").removeClass("active");
+      $(".first").addClass("active");
+    });
 
 
   });
