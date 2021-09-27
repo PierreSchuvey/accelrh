@@ -52,20 +52,15 @@
       </a>
     </li>
     <li>
-      <a id="panel8" class="dashed" href="#8">
+      <a id="panel8" class="" href="#8">
         <div><span class="hover-text">Analyse</span></div>
       </a>
     </li>
-    <li>
-      <a id="panel9" class="dashed" href="#9">
+    <!-- <li>
+      <a id="panel9" class="" href="#9">
         <div><span class="hover-text">Nos clients</span></div>
       </a>
-    </li>
-    <li>
-      <a id="panel10" class="" href="#10">
-        <div><span class="hover-text">Nos clients</span></div>
-      </a>
-    </li>
+    </li> -->
   </ul>
     <section id="firstPage" class="scrollable-section" data-panel="panel1">
       <div style="" class="container">
@@ -149,9 +144,9 @@
               <div class="col-12 col-xxl-6">
                 <div class="grid">
                   <?php
-                    for ($i=0; $i < 16 ; $i++) {
+                    for ($i=1; $i < 17 ; $i++) {
                     ?>
-                    <span class="element-item"></span>
+                    <span class="element-item"><img style="width:100%" src="assets/images/Entreprise1 (<?=$i?>).jpg" alt=""></span>
                     <?php
                     }
                     ?>
@@ -190,20 +185,7 @@
       </div>
     </section>
     <section id="sixthPage" class="panel6 scrollable-section" data-panel="panel6">
-      <div id="fifthPanelGroup" class="panelGroup row">
-          <img id="computerImage" class="img-fluid" src="assets/images/computerSection5.png" alt="">
-          <div class="offset-2 offset-sm-0 col-9">
-          <p class="uniquePlateform title">Gérez et suivez vos<br> candidatures simplement<br> <b>sur une </b><span class="greenText">plateforme unique</span></p>
-          <p class="uniquePlateformText">
-            Un tableau de bord complet et lisible vous<br> permet de visualiser, trier et qualifier les<b><br> candidatures reçues</b>.
-            Définissez les étapes<br> de votre recrutement, automatisez l'envoi de<br> message, commentez et historisez chaque action...<br>
-            le tout sans votre ancien fichier excel !
-          </p>
-        </div>
-      </div>
-    </section>
-    <section id="seventhPage" class="panel7 scrollable-section" data-panel="panel7">
-        <div id="seventhPanelGroup" class="panelGroup row">
+        <div id="sixthPanelGroup" class="panelGroup row">
           <img id="groupImage" class="img-fluid" src="assets/images/groupSection7Image.png" alt="">
           <div class="offset-2 col-9 offset-sm-2 col-sm-4">
             <p class="cvtheque title">Développez<br> et administrez<br><span class="greenText">votre cvthèque</span></p>
@@ -212,7 +194,7 @@
           </div>
         </div>
     </section>
-    <section id="eighthPage" class="panel8 scrollable-section" data-panel="panel8">
+    <section id="seventhPage" class="panel7 scrollable-section" data-panel="panel7">
       <div id="fifthPanelGroup" class="panelGroup row">
         <img id="droitsImage" class="img-fluid" src="assets/images/groupSection8Image.png" alt="">
         <div class="offset-2 col-9 offset-sm-3 offset-md-0 col-sm-12">
@@ -229,8 +211,8 @@
         </div
       </div>
     </section>
-    <section id="ninthPage" class="panel9 scrollable-section" data-panel="panel9">
-        <div id="ninthPanelGroup" class="panelGroup">
+    <section id="eighthPage" class="panel8 scrollable-section" data-panel="panel8">
+        <div id="eighthPanelGroup" class="panelGroup">
           <img id="analyseImage" class="img-fluid" src="assets/images/groupSection9Image.png" alt="">
           <div class="offset-2 col-9 offset-sm-2 col-sm-4">
             <p class="activity title">Analysez et mesurez<br><span class="darkGreenText">votre activité</span></p>
@@ -244,7 +226,7 @@
           </div>
         </div>
     </section>
-    <section id="tenthPage" class="panel10 scrollable-section" data-panel="panel10">
+    <!-- <section id="tenthPage" class="panel10 scrollable-section" data-panel="panel10">
       <div id="carouselPanel" class="panelGroup">
         <p class="ourClients">Ce qu'en pense nos clients</p>
         <div class="carousel-container">
@@ -342,7 +324,7 @@
               </div>
           </div>
       </div>
-    </section>
+    </section> -->
     <div class="contactBar">
       <div id="closeForm" class="row">
         <div class="offset-10 col-2">

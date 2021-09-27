@@ -58,10 +58,10 @@ body{
   letter-spacing: 3px;
   font-size: 18px;
 }
-#seventhPanelGroup{
+#sixthPanelGroup{
   margin-top:165px;
 }
-#ninthPanelGroup{
+#eighthPanelGroup{
   margin-top:165px;
 }
 #firstPage{
@@ -100,19 +100,19 @@ background: url(../images/backSection2.png) no-repeat center fixed;
   background-size: cover;flex: 1;
 }
 
-#seventhPage{
+#sixthPage{
    background: url(../images/backSection7.png) no-repeat center;
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
   background-size: cover;flex: 1;
 }
 
-#eighthPage{
+#seventhPage{
    background: url(../images/backSection8.png) no-repeat center;
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
   background-size: cover;flex: 1;
 }
 
-#ninthPage{
+#eighthPage{
    background: url(../images/backSection9.png) no-repeat center;
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
   background-size: cover;flex: 1;
@@ -503,25 +503,21 @@ background: url(../images/backSection2.png) no-repeat center fixed;
      background-size: cover;flex: 1;
    }
 
-   #sixthPage{
-      background: url(../images/backSection6.png) no-repeat center fixed;
-     -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-     background-size: cover;flex: 1;
-   }
 
-   #seventhPage{
+
+   #sixthPage{
       background: url(../images/backSection7Bis.png) no-repeat center fixed;
      -webkit-background-size: cover; /* pour anciens Chrome et Safari */
      background-size: cover;flex: 1;
    }
 
-   #eighthPage{
+   #seventhPage{
       background: url(../images/backSection8Bis.png) no-repeat center;
      -webkit-background-size: cover; /* pour anciens Chrome et Safari */
      background-size: cover;flex: 1;
    }
 
-   #ninthPage{
+   #eighthPage{
       background: url(../images/backSection9Bis.png) no-repeat center fixed;
      -webkit-background-size: cover; /* pour anciens Chrome et Safari */
      background-size: cover;flex: 1;
@@ -533,10 +529,10 @@ background: url(../images/backSection2.png) no-repeat center fixed;
     #fifthPanelGroup p{
       text-align: left;
     }
-    #seventhPanelGroup p{
+    #sixthPanelGroup p{
       text-align: left;
     }
-    #ninthPanelGroup p{
+    #eighthPanelGroup p{
       text-align: left;
     }
    #computerImage{
@@ -567,10 +563,10 @@ background: url(../images/backSection2.png) no-repeat center fixed;
    #mainAccelerh{
      margin-top: 50px;
    }
-   #seventhPanelGroup{
+   #sixthPanelGroup{
      margin-top:10px;
    }
-   #ninthPanelGroup{
+   #eighthPanelGroup{
      margin-top:10px;
    }
 
