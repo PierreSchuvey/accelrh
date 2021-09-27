@@ -14,6 +14,9 @@
     <title>AcceleRH</title>
   </head>
   <body>
+        <a id="panel1" class="buttonStart" href="#1">
+          <i class="fas fa-angle-up"></i>
+        </a>
     <img id="logoAccelerh" src="assets/images/logoAccelerh.svg" alt="accelerh">
     <ul class="pagination">
       <li>
@@ -120,7 +123,7 @@
                     <img class="filter-color" src="assets/images/rhPicto.png" alt="ressources humaines picto">
                   </div>
                   <div class="col-xs-12 col-sm-4">
-                    <p class="subParagraphPanel2">Economisez</p>
+                    <p class="subParagraphPanel2">Faites des economies</p>
                     <img class="filter-color" src="assets/images/pourcentPicto.svg" alt="pourcentage picto">
                   </div>
                 </div>
@@ -136,7 +139,7 @@
               <div class="offset-2 col-9 offset-sm-0 col-sm-12 col-xxl-6">
                 <p class="multiDiffus title"><span id="yellowText">Multi-diffusez</span> <b>vos</b> <br>offres d'emploi / formation</p>
                 <p class="multiDiffusText">
-                  En <b>quelques clics</b>, créer vos annonces et publier les d'un seul coup sur les sites de votre choix.
+                  En <b>quelques clics</b>, créez vos annonces et publiez les d'un seul coup sur les sites de votre choix.
                   <br>Finie la corvée des comptes multiples, des identifiants perdus...
                   <br>Vos offres bénéficient d'une visibilité optimale en quelques secondes.
                 </p>
@@ -178,7 +181,7 @@
           <p class="uniquePlateform title">Gérez et suivez vos<br> candidatures simplement<br> <b>sur une </b><span class="greenText">plateforme unique</span></p>
           <p class="uniquePlateformText">
             Un tableau de bord complet et lisible vous<br> permet de visualiser, trier et qualifier les<b><br> candidatures reçues</b>.
-            Définissez les étapes<br> de votre recrutement, automatisez l'envoi de<br> message, commentez et historisez chaque action...<br>
+            Définissez les étapes<br> de votre recrutement, automatisez l'envoi de<br> messages, commentez et historisez chaque action...<br>
             le tout sans votre ancien fichier excel !
           </p>
         </div>
@@ -190,7 +193,7 @@
           <div class="offset-2 col-9 offset-sm-2 col-sm-4">
             <p class="cvtheque title">Développez<br> et administrez<br><span class="greenText">votre cvthèque</span></p>
             <p class="cvthequeText">Toutes les candidatures reçues sont désormais centralisées !</p>
-            <p class="cvthequeText"><b>Retrouvez facilement</b> les CVs à l'aide de filtres<br>et de mits-clés grâce à cet outil performant et<br>personnalisable.</p>
+            <p class="cvthequeText"><b>Retrouvez facilement</b> les CVs à l'aide de filtres<br>et de mots-clés grâce à cet outil performant et<br>personnalisable.</p>
           </div>
         </div>
     </section>
@@ -208,7 +211,7 @@
           <br> fonctionnalités de l'outil comme vous le désirez
           <br> et attribuez des droits personnalisés à chacun !
         </p>
-        </div
+      </div>
       </div>
     </section>
     <section id="eighthPage" class="panel8 scrollable-section" data-panel="panel8">
@@ -217,11 +220,11 @@
           <div class="offset-2 col-9 offset-sm-2 col-sm-4">
             <p class="activity title">Analysez et mesurez<br><span class="darkGreenText">votre activité</span></p>
             <p class="activityText">
-              D'où provient vos candidatures ou vos
+              D'où proviennent vos candidatures ou vos
             <br> visiteurs ? Quels jobboards sont les plus
             <br> efficaces et rentables ? Obtenez des
-            <br> statistiques précises et suivez leurs
-            <br> évolutions pour optimisez le budget de
+            <br> statistiques précises et suivez leur
+            <br> évolution pour optimisez le budget de
             <br> votre service.</p>
           </div>
         </div>
@@ -354,13 +357,13 @@
             </div>
             <div class="form-group col-12 col-sm-4">
               <label for="message">Message<span class="require">*</span></label>
-              <textarea class="form-control" name="message" rows="1.5"></textarea>
+              <textarea class="form-control" name="message" placeholder="Message" rows="3"></textarea>
             </div>
           </div>
           <div class="row">
             <div class="form-group col-12 offset-sm-2 col-sm-4">
               <label for="phone">Téléphone<span class="require">*</span></label>
-              <input type="text" class="form-control" name="phone" placeholder="Nom">
+              <input type="text" class="form-control" name="phone" placeholder="Numéro de téléphone">
               <div style="margin-top:20px" class="g-recaptcha" data-sitekey="6LdLq24aAAAAACAUYqhVahq74A2bnPrLW8YPuPcU"></div>
             </div>
             <div class=" col-12 col-sm-4">
