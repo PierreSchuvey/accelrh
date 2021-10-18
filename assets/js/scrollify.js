@@ -647,7 +647,7 @@ if touchScroll is false - update index
         selector += "," + settings.interstitialSection;
       }
       heights = [];
-      names = [];
+      names = ['#AcceleRH','#Recrutements','#Offres','#Personnalisation','#Candidatures','#CVthèque','#Equipe','#Statistiques'];
       elements = [];
       $(selector).each(function(i){
           var $this = $(this);
@@ -658,9 +658,11 @@ if touchScroll is false - update index
           }
           if(settings.sectionName && $this.data(settings.sectionName)) {
             names[i] = "#" + $this.data(settings.sectionName).toString().replace(/ /g,"-");
+            console.log(names);
           } else {
             if($this.is(settings.interstitialSection)===false) {
-              names[i] = "#" + (i + 1);
+              names[i] = names[i];
+              console.log(names);
             } else {
               names[i] = "#";
               if(i===$(selector).length-1 && i>1) {

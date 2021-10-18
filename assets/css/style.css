@@ -64,55 +64,55 @@ body{
 #eighthPanelGroup{
   margin-top:165px;
 }
-#firstPage{
+#AcceleRH{
 background: url(../images/backSection2.png) no-repeat center fixed;
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
   background-size: cover;flex: 1;
 }
 
-#secondPage{
+#Recrutements{
    background: url(../images/backSection1.png) no-repeat center fixed;
   -webkit-background-size: container; /* pour anciens Chrome et Safari */
   background-size: cover;flex: 1;
 }
 
-#thirdPage{
+#Offres{
    background: url(../images/backSection3.png) no-repeat center fixed;
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
   background-size: cover;flex: 1;
 }
 
-#fourthPage{
+#Personnalisation{
    background-image: url(../images/backSection4.png);
    background-position: center, center;
 }
 
-#fifthPage{
+#Candidatures{
    background: url(../images/backSection5Bis.png) no-repeat center;
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
   background-size: cover;flex: 1;
 
 }
 
-#sixthPage{
+#CVthèque{
    background: url(../images/backSection6Bis.png) no-repeat center;
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
   background-size: cover;flex: 1;
 }
 
-#sixthPage{
+#CVthèque{
    background: url(../images/backSection7.png) no-repeat center;
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
   background-size: cover;flex: 1;
 }
 
-#seventhPage{
+#Equipe{
    background: url(../images/backSection8.png) no-repeat center;
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
   background-size: cover;flex: 1;
 }
 
-#eighthPage{
+#Statistiques{
    background: url(../images/backSection9.png) no-repeat center;
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
   background-size: cover;flex: 1;
@@ -450,7 +450,7 @@ background: url(../images/backSection2.png) no-repeat center fixed;
      margin-top: 0px;
    }
 
-   #thirdPage{
+   #Offres{
      height: 980px;
    }
 
@@ -476,10 +476,10 @@ background: url(../images/backSection2.png) no-repeat center fixed;
    #secondPanelGroup{
      margin-top: 20px;
    }
-   #firstPage{
+   #AcceleRH{
    height: 1280px;
    }
-   #secondPage{
+   #Recrutements{
      height: 1000px;
    }
 
@@ -491,13 +491,13 @@ background: url(../images/backSection2.png) no-repeat center fixed;
      margin-top: -20px;
    }
 
-   #fourthPage{
+   #Personnalisation{
       background: url(../images/backSection4Bis.png) no-repeat center fixed;
      -webkit-background-size: cover; /* pour anciens Chrome et Safari */
      background-size: cover;flex: 1;
    }
 
-   #fifthPage{
+   #Candidatures{
       background: url(../images/backSection5.png) no-repeat center fixed;
      -webkit-background-size: cover; /* pour anciens Chrome et Safari */
      background-size: cover;flex: 1;
@@ -505,19 +505,19 @@ background: url(../images/backSection2.png) no-repeat center fixed;
 
 
 
-   #sixthPage{
+   #CVthèque{
       background: url(../images/backSection7Bis.png) no-repeat center fixed;
      -webkit-background-size: cover; /* pour anciens Chrome et Safari */
      background-size: cover;flex: 1;
    }
 
-   #seventhPage{
+   #Equipe{
       background: url(../images/backSection8Bis.png) no-repeat center;
      -webkit-background-size: cover; /* pour anciens Chrome et Safari */
      background-size: cover;flex: 1;
    }
 
-   #eighthPage{
+   #Statistiques{
       background: url(../images/backSection9Bis.png) no-repeat center fixed;
      -webkit-background-size: cover; /* pour anciens Chrome et Safari */
      background-size: cover;flex: 1;
@@ -573,7 +573,7 @@ background: url(../images/backSection2.png) no-repeat center fixed;
  }
 
  @media only screen and (max-device-width: 421px) {
-   #thirdPage{
+   #Offres{
      height: 1180px;
    }
 
@@ -591,7 +591,7 @@ background: url(../images/backSection2.png) no-repeat center fixed;
  }
 
  @media only screen and (max-device-width: 327px) {
-   #thirdPage{
+   #Offres{
      height: 1380px;
    }
 
@@ -628,6 +628,7 @@ background: url(../images/backSection2.png) no-repeat center fixed;
    height: 50px;
    border-radius: 50%;
    background-color: #F44280;
+   z-index: 100000;
  }
  .buttonStart:hover{
    color:white;

@@ -1,5 +1,9 @@
+<?php
+include_once('include/ControleurContact.php');
+$controleur_contact = new ControleurContact();
+$resultat = $controleur_contact->gerer();
+?>
 <!DOCTYPE html>
-
 <html lang="fr" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -14,49 +18,49 @@
     <title>AcceleRH</title>
   </head>
   <body>
-        <a id="panel1" class="buttonStart" href="#1">
+        <a id="panel1" class="buttonStart" href="#firstPage">
           <i class="fas fa-angle-up"></i>
         </a>
     <img id="logoAccelerh" src="assets/images/logoAccelerh.svg" alt="accelerh">
     <ul class="pagination">
       <li>
-        <a id="panel1" class="dashed first active" href="#1">
-          <div><span class="hover-text">Accueil</span></div>
+        <a id="panel1" class="dashed first active" href="#AcceleRH">
+          <div><span class="hover-text">AcceleRH - Logiciel RH innovant</span></div>
         </a>
       </li>
       <li>
-        <a id="panel2" class="dashed" href="#2">
-        <div><span class="hover-text">Présentation</span></div>
+        <a id="panel2" class="dashed" href="#Recrutements">
+        <div><span class="hover-text">Simplifiez vos recrutements</span></div>
       </a>
     </li>
     <li>
-      <a id="panel3" class="dashed" href="#3">
-        <div><span class="hover-text">Diffusion</span></div>
+      <a id="panel3" class="dashed" href="#Offres">
+        <div><span class="hover-text">Multi-diffusion d'offres</span></div>
       </a>
     </li>
     <li>
-      <a id="panel4" class="dashed" href="#4">
-        <div><span class="hover-text">Site sur-mesure</span></div>
+      <a id="panel4" class="dashed" href="#Personnalisation">
+        <div><span class="hover-text">Site de recrutement personnalisé</span></div>
       </a>
     </li>
     <li>
-      <a id="panel5" class="dashed" href="#5">
-        <div><span class="hover-text">Plateforme</span></div>
+      <a id="panel5" class="dashed" href="#Candidatures">
+        <div><span class="hover-text">Suivi et gestion des candidatures</span></div>
       </a>
     </li>
     <li>
-      <a id="panel6" class="dashed" href="#6">
-        <div><span class="hover-text">Cvthèque</span></div>
+      <a id="panel6" class="dashed" href="#CVthèque">
+        <div><span class="hover-text">CVthèque</span></div>
       </a>
     </li>
     <li>
-      <a id="panel7" class="dashed" href="#7">
-        <div><span class="hover-text">Gestion des droits</span></div>
+      <a id="panel7" class="dashed" href="#Equipe">
+        <div><span class="hover-text">Recrutez en équipe</span></div>
       </a>
     </li>
     <li>
-      <a id="panel8" class="" href="#8">
-        <div><span class="hover-text">Analyse</span></div>
+      <a id="panel8" class="" href="#Statistiques">
+        <div><span class="hover-text">Statistiques</span></div>
       </a>
     </li>
     <!-- <li>
@@ -65,7 +69,7 @@
       </a>
     </li> -->
   </ul>
-    <section id="firstPage" class="scrollable-section" data-panel="panel1">
+    <section id="AcceleRH" class="scrollable-section" data-panel="panel1">
       <div style="" class="container">
         <div id="secondPanelGroup" class="panelGroup row">
           <div style="height:500px" class="offset-xl-2 offset-lg-1 col-12 col-lg-10 col-xl-8">
@@ -103,7 +107,7 @@
         </div>
       </div>
     </section>
-    <section id="secondPage" class="panel2 scrollable-section" data-panel="panel2">
+    <section id="Recrutements" class="panel2 scrollable-section" data-panel="panel2">
           <div style="" class="container">
             <div id="firstPanelGroup" class="panelGroup row">
               <div style="height:500px" class="offset-xl-2 offset-lg-1 col-12 col-lg-10 col-xl-8">
@@ -131,7 +135,7 @@
             </div>
           </div>
     </section>
-    <section id="thirdPage" class="panel3 scrollable-section" data-panel="panel3">
+    <section id="Offres" class="panel3 scrollable-section" data-panel="panel3">
       <div style="" class="container">
         <div id="secondPanelGroup" class="panelGroup row">
           <div style="height:500px" class="offset-xl-2 offset-lg-1 col-12 col-lg-10 col-xl-8">
@@ -161,7 +165,7 @@
         </div>
       </div>
     </section>
-    <section id="fourthPage" class="panel4 scrollable-section" data-panel="panel4">
+    <section id="Personnalisation" class="panel4 scrollable-section" data-panel="panel4">
       <div style="" class="container">
         <div id="fourthPanelGroup" class="panelGroup row">
           <img id="createImage" class="img-fluid" src="assets/images/groupSection5Image.png" alt="">
@@ -174,7 +178,7 @@
         </div>
       </div>
     </section>
-    <section id="fifthPage" class="panel5 scrollable-section" data-panel="panel5">
+    <section id="Candidatures" class="panel5 scrollable-section" data-panel="panel5">
       <div id="fifthPanelGroup" class="panelGroup row">
         <img id="computerImage" class="img-fluid" src="assets/images/computerSection5.png" alt="">
         <div class="offset-2 offset-sm-0 col-9">
@@ -187,17 +191,17 @@
         </div>
       </div>
     </section>
-    <section id="sixthPage" class="panel6 scrollable-section" data-panel="panel6">
+    <section id="CVthèque" class="panel6 scrollable-section" data-panel="panel6">
         <div id="sixthPanelGroup" class="panelGroup row">
           <img id="groupImage" class="img-fluid" src="assets/images/groupSection7Image.png" alt="">
           <div class="offset-2 col-9 offset-sm-2 col-sm-4">
-            <p class="cvtheque title">Développez<br> et administrez<br><span class="greenText">votre cvthèque</span></p>
+            <p class="cvtheque title">Vos candidatures dans <br><span class="greenText">votre cvthèque</span></p>
             <p class="cvthequeText">Toutes les candidatures reçues sont désormais centralisées !</p>
             <p class="cvthequeText"><b>Retrouvez facilement</b> les CVs à l'aide de filtres<br>et de mots-clés grâce à cet outil performant et<br>personnalisable.</p>
           </div>
         </div>
     </section>
-    <section id="seventhPage" class="panel7 scrollable-section" data-panel="panel7">
+    <section id="Equipe" class="panel7 scrollable-section" data-panel="panel7">
       <div id="fifthPanelGroup" class="panelGroup row">
         <img id="droitsImage" class="img-fluid" src="assets/images/groupSection8Image.png" alt="">
         <div class="offset-2 col-9 offset-sm-3 offset-md-0 col-sm-12">
@@ -214,7 +218,7 @@
       </div>
       </div>
     </section>
-    <section id="eighthPage" class="panel8 scrollable-section" data-panel="panel8">
+    <section id="Statistiques" class="panel8 scrollable-section" data-panel="panel8">
         <div id="eighthPanelGroup" class="panelGroup">
           <img id="analyseImage" class="img-fluid" src="assets/images/groupSection9Image.png" alt="">
           <div class="offset-2 col-9 offset-sm-2 col-sm-4">
@@ -337,23 +341,23 @@
       <p id="callDemo">Demandez une démo</p>
       <div id="triangle-code"></div>
       <div class="container">
-        <form method="POST" action="mail.php">
+        <!-- <form method="POST" action="#contact">
           <div class="row">
             <div class="form-group col-12 offset-sm-2 col-sm-4">
-              <label for="lastName">Nom<span class="require">*</span></label>
-              <input type="text" class="form-control" name="lastName" placeholder="Nom">
+              <label for="nom">Nom<span class="require">*</span></label>
+              <input type="text" class="form-control" name="nom" placeholder="Nom">
             </div>
             <div class="form-group col-12 col-sm-4">
-              <label for="society">Société<span class="require">*</span></label>
-              <input type="text" class="form-control" name="society" placeholder="Société">
+              <label for="societe">Société<span class="require">*</span></label>
+              <input type="text" class="form-control" name="societe" placeholder="Société">
             </div>
           </div>
           <div class="row">
             <div class="form-group col-12 offset-sm-2 col-sm-4">
-              <label for="firstName">Prénom<span class="require">*</span></label>
-              <input type="text" class="form-control" name="firstName" placeholder="Prénom">
-              <label for="email">E-mail Professionnel<span class="require">*</span></label>
-              <input type="mail" class="form-control" name="email" placeholder="E-mail Professionnel">
+              <label for="prenom">Prénom<span class="require">*</span></label>
+              <input type="text" class="form-control" name="prenom" placeholder="Prénom">
+              <label for="mail">E-mail Professionnel<span class="require">*</span></label>
+              <input type="mail" class="form-control" name="mail" placeholder="E-mail Professionnel">
             </div>
             <div class="form-group col-12 col-sm-4">
               <label for="message">Message<span class="require">*</span></label>
@@ -362,15 +366,17 @@
           </div>
           <div class="row">
             <div class="form-group col-12 offset-sm-2 col-sm-4">
-              <label for="phone">Téléphone<span class="require">*</span></label>
-              <input type="text" class="form-control" name="phone" placeholder="Numéro de téléphone">
+              <label for="tel">Téléphone<span class="require">*</span></label>
+              <input type="text" class="form-control" name="tel" placeholder="Numéro de téléphone">
+              <input type="hidden" name="csrf">
               <div style="margin-top:20px" class="g-recaptcha" data-sitekey="6LdLq24aAAAAACAUYqhVahq74A2bnPrLW8YPuPcU"></div>
             </div>
             <div class=" col-12 col-sm-4">
               <button name="mailform" type="submit" class="btn btn-send">ENVOYER <i class="fas fa-paper-plane"></i></button>
             </div>
           </div>
-        </form>
+        </form> -->
+        <?= $resultat ?>
       </div>
     </div>
   </body>

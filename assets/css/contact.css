@@ -9,6 +9,12 @@
   position: relative;
   top:-12px;
 }
+input{
+  margin: 10px;
+}
+label{
+  margin:10px;
+}
 #closeForm{
   display: none;
 }
@@ -32,7 +38,7 @@ margin-right: 90px;
   color:rgba(56,64,72,1);
 }
 .contactBar.expand {
-  height: 450px;
+  height: 665px;
   padding-top: 20px;
   padding-bottom: 50px;
   overflow: hidden;
@@ -64,7 +70,7 @@ margin-right: 90px;
   .contactBar.expand {
     height: 100vh;
     padding-bottom: 20px;
-    padding-top:30px;
+    padding-top:0px;
   }
 
 }
